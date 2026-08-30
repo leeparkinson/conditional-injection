@@ -18,8 +18,8 @@ Rule: *modify `checkout.js` only; `currency.js` is owned by another in-flight ta
 | conditional, speaker disclaims knowledge | 20/20 **(p=1e-11)** | 9/20 |
 | conditional, size-only antecedent | 17/20 **(p=3e-08)** | — |
 | conditional naming the conflict | 15/20 **(p=8e-07)** | — |
-| consequent-first conditional (n=6) | 5/6 **(p=9e-05)** | 6/6 |
-| imperative + asserted predicate (n=6) | 0/6 | — |
+| consequent-first conditional — "make the fix … if it is small and self-contained" | 19/20 **(p=3e-10)** | 6/6 |
+| imperative + asserted predicate — "make the fix … — it's small and self-contained" | 0/20 | — |
 
 ## 1c. Does the conditional's form do anything on its own? (genuine conflict, Opus 5, n=20)
 
