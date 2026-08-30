@@ -1,5 +1,5 @@
 #!/bin/bash
-STUDY=/home/lee/repos/conditional-constraint-study
+STUDY=$(cd "$(dirname "$0")/.." && pwd)
 cp ~/.claude/.credentials.json "$STUDY/cfg/.credentials.json"
 # two Anthropic models, three cells, n=15 each = 90 runs
 for m in claude-sonnet-5 claude-opus-5; do
