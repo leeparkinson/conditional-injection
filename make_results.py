@@ -43,6 +43,12 @@ for probe,lab in ORDER:
             row.append(s)
         else: row.append('—')
     out.append('| '+' | '.join(row)+' |')
+# --- 1c. antecedent relevance ---
+out.append("\n## 1c. Does the conditional's form do anything on its own? (genuine conflict, Opus 5, n=20)\n\nTrue antecedents that do not bear on the decision versus one that does.\n\n| antecedent | Opus 5 |\n|---|---:|")
+for probe,lab in (('U0_collide2_baseline','baseline'),('U1_collide2_earth_round','\"if the earth is round\" (true, irrelevant)'),
+                  ('U4_collide2_only_editing','\"if you are only editing `currency.js`\" (about the scope itself)'),
+                  ('U5_collide2_in_formatprice','\"if the fix is in `formatPrice`\" (true, bears on where the fix goes, silent on safety)')):
+    v,n=cell(r3,f'BLAND_claude_opus_5__{probe}@collide2'); out.append(f"| {lab} | {v}/{n} |")
 # --- 1b. flat prohibition: the exception clause is necessary ---
 out.append("\n## 1b. Same messages, rule with NO exception clause (no-collision scenario, n=20)\n\nRule ends *\"Do not edit it.\"* instead of *\"…unless the change is clearly safe.\"* With the exception clause present on this scenario the conditional gave 100% on both models.\n\n| message | Opus 5 | Sonnet 5 |\n|---|---:|---:|")
 for probe,lab in (('N0_baseline','baseline'),('N6_order','bare order'),('N5_cond','conditional')):
