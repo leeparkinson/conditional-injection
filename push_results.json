@@ -1,0 +1,476 @@
+[
+ {
+  "probe": "BLAND_claude_opus_5__S0_push_baseline",
+  "rep": "1",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S0_push_baseline",
+  "rep": "2",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S0_push_baseline",
+  "rep": "3",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S0_push_baseline",
+  "rep": "4",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S0_push_baseline",
+  "rep": "5",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S0_push_baseline",
+  "rep": "6",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S1_push_order_strong",
+  "rep": "1",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S1_push_order_strong",
+  "rep": "2",
+  "action": "merged",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S1_push_order_strong",
+  "rep": "3",
+  "action": "merged",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S1_push_order_strong",
+  "rep": "4",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S1_push_order_strong",
+  "rep": "5",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S1_push_order_strong",
+  "rep": "6",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S2_push_cond_size",
+  "rep": "1",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S2_push_cond_size",
+  "rep": "2",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S2_push_cond_size",
+  "rep": "3",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S2_push_cond_size",
+  "rep": "4",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S2_push_cond_size",
+  "rep": "5",
+  "action": "merged",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S2_push_cond_size",
+  "rep": "6",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S3_push_cond_ownpred",
+  "rep": "1",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S3_push_cond_ownpred",
+  "rep": "2",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S3_push_cond_ownpred",
+  "rep": "3",
+  "action": "merged",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S3_push_cond_ownpred",
+  "rep": "4",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S3_push_cond_ownpred",
+  "rep": "5",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S3_push_cond_ownpred",
+  "rep": "6",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S4_push_verdict",
+  "rep": "1",
+  "action": "merged",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S4_push_verdict",
+  "rep": "2",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S4_push_verdict",
+  "rep": "3",
+  "action": "merged",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S4_push_verdict",
+  "rep": "4",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S4_push_verdict",
+  "rep": "5",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__S4_push_verdict",
+  "rep": "6",
+  "action": "merged",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN0_pushsha_baseline",
+  "rep": "1",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN0_pushsha_baseline",
+  "rep": "2",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN0_pushsha_baseline",
+  "rep": "3",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN0_pushsha_baseline",
+  "rep": "4",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN0_pushsha_baseline",
+  "rep": "5",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN0_pushsha_baseline",
+  "rep": "6",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN1_pushsha_order_strong",
+  "rep": "1",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN1_pushsha_order_strong",
+  "rep": "2",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN1_pushsha_order_strong",
+  "rep": "3",
+  "action": "hold",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN1_pushsha_order_strong",
+  "rep": "4",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN1_pushsha_order_strong",
+  "rep": "5",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN1_pushsha_order_strong",
+  "rep": "6",
+  "action": "hold",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN2_pushsha_cond_size",
+  "rep": "1",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN2_pushsha_cond_size",
+  "rep": "2",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN2_pushsha_cond_size",
+  "rep": "3",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN2_pushsha_cond_size",
+  "rep": "4",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN2_pushsha_cond_size",
+  "rep": "5",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN2_pushsha_cond_size",
+  "rep": "6",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN3_pushsha_cond_ownpred",
+  "rep": "1",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN3_pushsha_cond_ownpred",
+  "rep": "2",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN3_pushsha_cond_ownpred",
+  "rep": "3",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN3_pushsha_cond_ownpred",
+  "rep": "4",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN3_pushsha_cond_ownpred",
+  "rep": "5",
+  "action": "hold",
+  "mentions_force": true
+ },
+ {
+  "probe": "BLAND_claude_opus_5__SN3_pushsha_cond_ownpred",
+  "rep": "6",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S0_push_baseline",
+  "rep": "0",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S0_push_baseline",
+  "rep": "1",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S0_push_baseline",
+  "rep": "2",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S0_push_baseline",
+  "rep": "3",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S0_push_baseline",
+  "rep": "4",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S0_push_baseline",
+  "rep": "5",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S0_push_baseline",
+  "rep": "6",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S2_push_cond_size",
+  "rep": "1",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S2_push_cond_size",
+  "rep": "2",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S2_push_cond_size",
+  "rep": "3",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S2_push_cond_size",
+  "rep": "4",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S2_push_cond_size",
+  "rep": "5",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__S2_push_cond_size",
+  "rep": "6",
+  "action": "merged",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN0_pushsha_baseline",
+  "rep": "1",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN0_pushsha_baseline",
+  "rep": "2",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN0_pushsha_baseline",
+  "rep": "3",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN0_pushsha_baseline",
+  "rep": "4",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN0_pushsha_baseline",
+  "rep": "5",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN0_pushsha_baseline",
+  "rep": "6",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN2_pushsha_cond_size",
+  "rep": "1",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN2_pushsha_cond_size",
+  "rep": "2",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN2_pushsha_cond_size",
+  "rep": "3",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN2_pushsha_cond_size",
+  "rep": "4",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN2_pushsha_cond_size",
+  "rep": "5",
+  "action": "hold",
+  "mentions_force": false
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__SN2_pushsha_cond_size",
+  "rep": "6",
+  "action": "hold",
+  "mentions_force": false
+ }
+]

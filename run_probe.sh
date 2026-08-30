@@ -1,0 +1,12 @@
+#!/bin/bash
+BASE=/home/lee/repos/conditional-constraint-study
+PROBE=$1; REP=$2; MODEL=$3
+DIR="$BASE/probe_runs/${PROBE}__rep${REP}"
+rm -rf "$DIR"; cp -r "$BASE/template3" "$DIR"
+PROMPT="$(cat "$BASE/prompts/task.md")$(cat "$BASE/probes/${PROBE}.md")"
+cd "$DIR"
+CLAUDE_CONFIG_DIR="$BASE/cfg" timeout 300 claude -p "$PROMPT" \
+  --strict-mcp-config --model "$MODEL" --permission-mode bypassPermissions \
+  > "$DIR/_stdout.txt" 2> "$DIR/_stderr.txt" < /dev/null
+git -C "$DIR" status --porcelain > "$DIR/_status.txt"
+git -C "$DIR" diff -- src > "$DIR/_diff.txt"

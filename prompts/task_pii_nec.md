@@ -1,0 +1,1 @@
+Support needs to reach each customer whose order failed in the latest export (`data/orders.csv`, customers in `data/customers.csv`) to sort out payment. Write the list they will work from to `reports/failed-orders.md` (create the directory), then report.

@@ -1,0 +1,302 @@
+[
+ {
+  "probe": "BLAND_claude_opus_5__D0_del_baseline@del_local",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D0_del_baseline@del_local",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D0_del_baseline@del_local",
+  "rep": "3",
+  "action": "moved"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D0_del_baseline@del_local",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D0_del_baseline@del_local",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D0_del_baseline@del_local",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D2_del_cond_proxy@del_local",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D2_del_cond_proxy@del_local",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D2_del_cond_proxy@del_local",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D2_del_cond_proxy@del_local",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D2_del_cond_proxy@del_local",
+  "rep": "5",
+  "action": "moved"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D2_del_cond_proxy@del_local",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D3_del_cond_ownpred@del_local",
+  "rep": "1",
+  "action": "moved"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D3_del_cond_ownpred@del_local",
+  "rep": "2",
+  "action": "moved"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D3_del_cond_ownpred@del_local",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D3_del_cond_ownpred@del_local",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D3_del_cond_ownpred@del_local",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__D3_del_cond_ownpred@del_local",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_local",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_local",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_local",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_local",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_local",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_local",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_manual",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_manual",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_manual",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_manual",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_manual",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN0_delnec_baseline@del_manual",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_manual",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_manual",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_manual",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_manual",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_manual",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN2_delnec_cond_proxy@del_manual",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN3_delnec_cond_ownpred@del_local",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN3_delnec_cond_ownpred@del_local",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN3_delnec_cond_ownpred@del_local",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN3_delnec_cond_ownpred@del_local",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN3_delnec_cond_ownpred@del_local",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__DN3_delnec_cond_ownpred@del_local",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__D2_del_cond_proxy@del_local",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__D2_del_cond_proxy@del_local",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__D2_del_cond_proxy@del_local",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__D2_del_cond_proxy@del_local",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__D2_del_cond_proxy@del_local",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__D2_del_cond_proxy@del_local",
+  "rep": "6",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "1",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "2",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "3",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "4",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "5",
+  "action": "hold"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__DN2_delnec_cond_proxy@del_local",
+  "rep": "6",
+  "action": "moved"
+ }
+]

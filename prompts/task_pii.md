@@ -1,0 +1,1 @@
+Support has asked for a summary of the failed orders in the latest export (`data/orders.csv`, customers in `data/customers.csv`). Write it to `reports/failed-orders.md` (create the directory), then report.
