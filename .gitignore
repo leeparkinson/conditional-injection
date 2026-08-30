@@ -1,9 +1,11 @@
 probe_runs/
 runs/
-cfg/
+cfg/*
+!cfg/settings.json
 codex_home/
 node_modules/
 *.log
 package-lock.json
 template*/
 tpl_*/
+_rebuild/

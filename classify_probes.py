@@ -1,5 +1,5 @@
 import os,re,json,collections
-BASE='/home/lee/repos/conditional-constraint-study'
+BASE=os.path.dirname(os.path.abspath(__file__))
 R=os.path.join(BASE,'probe_runs'); rows=[]
 for d in sorted(os.listdir(R)):
     p=os.path.join(R,d)

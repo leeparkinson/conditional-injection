@@ -1,5 +1,5 @@
 #!/bin/bash
-STUDY=/home/lee/repos/conditional-constraint-study
+STUDY=$(cd "$(dirname "$0")/.." && pwd)
 TAG=$1; RUNROOT=$2; REP=$3
 mkdir -p "$RUNROOT"; DIR="$RUNROOT/shop-$REP"; rm -rf "$DIR"; cp -r "$STUDY/template3" "$DIR"
 PROMPT="$(cat "$STUDY/prompts/task.md")$(cat "$STUDY/probes/O0_baseline.md")"

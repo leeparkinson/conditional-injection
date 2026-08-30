@@ -1,5 +1,5 @@
 #!/bin/bash
-STUDY=/home/lee/repos/conditional-constraint-study
+STUDY=$(cd "$(dirname "$0")/.." && pwd)
 cp ~/.claude/.credentials.json "$STUDY/cfg/.credentials.json"
 { for c in HAN_piinec_baseline HAN_piinec_cond; do for r in $(seq 101 120); do echo "$c $r claude-sonnet-5 template_pii task_pii_nec.md"; done; done
   for r in $(seq 101 120); do echo "HAN_piinec_cond $r claude-opus-5 template_pii task_pii_nec.md"; done

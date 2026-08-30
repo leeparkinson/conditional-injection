@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE=/home/lee/repos/conditional-constraint-study
+BASE=$(cd "$(dirname "$0")/.." && pwd)
 PROBE=$1; REP=$2; MODEL=$3; TPL=${4:-template3}
 DIR="$BASE/probe_runs/${PROBE}__rep${REP}"
 rm -rf "$DIR"; cp -r "$BASE/$TPL" "$DIR"

@@ -1,5 +1,5 @@
 #!/bin/bash
-STUDY=/home/lee/repos/conditional-constraint-study
+STUDY=$(cd "$(dirname "$0")/.." && pwd)
 CELLS="R0_baseline R5_cond_norechar R6_bare_imperative"
 for c in $CELLS; do for r in $(seq 1 20); do echo "$c $r gpt-5"; done; done \
   | xargs -P 8 -n 3 "$STUDY/run_codex.sh"

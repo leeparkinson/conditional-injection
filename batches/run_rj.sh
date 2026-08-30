@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE=/home/lee/repos/conditional-constraint-study
+BASE=$(cd "$(dirname "$0")/.." && pwd)
 CELLS="R0_baseline R1_gen_cond R2_spec_cond R3_gen_verd R4_spec_verd R5_cond_norechar R6_bare_imperative"
 for wave in 1 2; do
   cp ~/.claude/.credentials.json "$BASE/cfg/.credentials.json"

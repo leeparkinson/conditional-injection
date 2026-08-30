@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE=/home/lee/repos/conditional-constraint-study
+BASE=$(cd "$(dirname "$0")/.." && pwd)
 tpl_for(){ case "$1" in C1_contributing) echo tpl_contrib2;; C2_comment) echo tpl_comment2;; *) echo template3;; esac; }
 run(){ "$BASE/run_w.sh" "$1" "$2" claude-sonnet-5 "$(tpl_for "$1")"; }
 export -f run tpl_for; export BASE

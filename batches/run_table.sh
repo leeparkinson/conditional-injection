@@ -1,6 +1,6 @@
 #!/bin/bash
 # main table: fresh n=20, reps 101-120, waves of 5 reps with credential refresh, then retry pass
-STUDY=/home/lee/repos/conditional-constraint-study; MODEL=$1; shift; CELLS="$@"
+STUDY=$(cd "$(dirname "$0")/.." && pwd); MODEL=$1; shift; CELLS="$@"
 TAG=$(echo "$MODEL" | tr -c 'a-z0-9\n' '_')
 for lo in 101 106 111 116; do
   cp ~/.claude/.credentials.json "$STUDY/cfg/.credentials.json"

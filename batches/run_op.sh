@@ -1,5 +1,5 @@
 #!/bin/bash
-STUDY=/home/lee/repos/conditional-constraint-study
+STUDY=$(cd "$(dirname "$0")/.." && pwd)
 cp ~/.claude/.credentials.json "$STUDY/cfg/.credentials.json"
 for c in O0_baseline O1_op_order O2_op_cond O3_op_verdict; do for r in $(seq 1 20); do echo "$c $r claude-sonnet-5 template3"; done; done \
   | xargs -P 8 -n 4 "$STUDY/run_w.sh"

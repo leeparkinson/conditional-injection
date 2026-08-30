@@ -1,5 +1,5 @@
 import os,re,json,collections,sys
-BASE='/home/lee/repos/conditional-constraint-study'
+BASE=os.path.dirname(os.path.abspath(__file__))
 R=os.path.join(BASE,'probe_runs')
 ERRS=('Failed to authenticate','OAuth session expired','session limit','Credit balance','API Error')
 rows=[]

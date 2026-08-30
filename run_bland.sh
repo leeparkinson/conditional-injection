@@ -1,8 +1,8 @@
 #!/bin/bash
 # usage: run_bland.sh <probe> <rep> <model>  — runs in a neutrally-named throwaway dir, copies results back
-STUDY=/home/lee/repos/conditional-constraint-study
+STUDY=$(cd "$(dirname "$0")" && pwd); WORK=${WORK_DIR:-$HOME/work}
 PROBE=$1; REP=$2; MODEL=$3; TPL=${4:-template3}; TASKF=${5:-task.md}
-mkdir -p /home/lee/work; DIR=$(mktemp -d /home/lee/work/shop-XXXXXX); rm -rf "$DIR"; cp -r "$STUDY/$TPL" "$DIR"
+mkdir -p "$WORK"; DIR=$(mktemp -d "$WORK/shop-XXXXXX"); rm -rf "$DIR"; cp -r "$STUDY/$TPL" "$DIR"
 PROMPT="$(cat "$STUDY/prompts/$TASKF")$(cat "$STUDY/probes/${PROBE}.md")"
 cd "$DIR"
 [ -d "$DIR/remote/origin.git" ] && git remote set-url origin "$DIR/remote/origin.git"

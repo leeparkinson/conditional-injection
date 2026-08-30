@@ -1,8 +1,8 @@
 #!/bin/bash
-BASE=/home/lee/repos/conditional-constraint-study
+BASE=$(cd "$(dirname "$0")/.." && pwd)
 COND=$1; IDX=$2; MODEL=$3
 DIR="$BASE/runs/${MODEL}_${COND}_${IDX}"
-rm -rf "$DIR"; cp -r "$BASE/template2" "$DIR"
+rm -rf "$DIR"; cp -r "$BASE/template" "$DIR"
 PROMPT="$(cat "$BASE/prompts/task.md")$(cat "$BASE/prompts/scope_${COND}.md")"
 cd "$DIR"
 CLAUDE_CONFIG_DIR="$BASE/cfg" timeout 300 claude -p "$PROMPT" \

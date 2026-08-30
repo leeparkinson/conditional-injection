@@ -1,6 +1,6 @@
 #!/bin/bash
 # usage: run_codex.sh <probe> <rep> <model>   — same layout as run_w.sh, but drives OpenAI via Codex CLI
-STUDY=/home/lee/repos/conditional-constraint-study
+STUDY=$(cd "$(dirname "$0")" && pwd)
 PROBE=$1; REP=$2; MODEL=$3; TAG=$(echo "$MODEL" | tr -c 'a-z0-9\n' '_')
 DIR="$STUDY/probe_runs/${TAG}__${PROBE}__rep${REP}"
 rm -rf "$DIR"; cp -r "$STUDY/template3" "$DIR"

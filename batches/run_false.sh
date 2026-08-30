@@ -1,5 +1,5 @@
 #!/bin/bash
-STUDY=/home/lee/repos/conditional-constraint-study; MODEL=$1; TAG=$(echo "$MODEL" | tr -c 'a-z0-9\n' '_')
+STUDY=$(cd "$(dirname "$0")/.." && pwd); MODEL=$1; TAG=$(echo "$MODEL" | tr -c 'a-z0-9\n' '_')
 cp ~/.claude/.credentials.json "$STUDY/cfg/.credentials.json"
 { for r in $(seq 1 20); do echo "F1_false_antecedent $r $MODEL template3"; done
   for c in F2_collide_baseline F2_collide_cond F2_collide_order; do for r in $(seq 1 20); do echo "$c $r $MODEL template_collide"; done; done; } \

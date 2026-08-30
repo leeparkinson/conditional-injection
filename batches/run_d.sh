@@ -1,5 +1,5 @@
 #!/bin/bash
-STUDY=/home/lee/repos/conditional-constraint-study
+STUDY=$(cd "$(dirname "$0")/.." && pwd)
 cp ~/.claude/.credentials.json "$STUDY/cfg/.credentials.json"
 { # wave A: easy compliant paths exist (local name)
   for c in D0_del_baseline D2_del_cond_proxy D3_del_cond_ownpred; do for r in 1 2 3 4 5 6; do echo "$c $r claude-opus-5 template_del_local task_del.md"; done; done
