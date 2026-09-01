@@ -29,7 +29,7 @@ Our contributions are:
 
 **Conformity and social influence.** A substantial 2025–26 literature reports that agents shift behaviour under peer endorsement and consensus. We began from that hypothesis and could not reproduce it under matched content: with the text held constant, peer agents, named seniors, human colleagues, CI logs and policy files produced indistinguishable outcomes (§5.4), and consensus manipulations suppressed rather than raised violation. We report this as a source-invariance control rather than a finding; the underpowered social battery is in the appendix.
 
-**Evaluation validity.** Recent work on evaluation awareness shows frontier models detect and respond to being tested. We did not observe verbalised awareness, but we did observe agents reading experimenter fingerprints out of directory names, git history and file headers (§8), and we observed an unexplained 25–80% drift in a byte-identical baseline across batches. Both constrain how results of this kind should be reported.
+**Evaluation validity.** Recent work on evaluation awareness shows frontier models detect and respond to being tested. We did not observe verbalised awareness, but we did observe agents reading experimenter fingerprints out of directory names, git history and file headers (§8), and we observed an unexplained drift in a byte-identical baseline across batches (25–90% over the study; measured directly as 90/70/90/80% across four batches in a single day, §8). Both constrain how results of this kind should be reported.
 
 ## 3. Method
 
@@ -206,7 +206,7 @@ A factual handoff transmits nothing (0/60). A handoff carrying the licence does 
 
 **Scope.** One codebase family; the mechanism claim rests on the scope-rule scenario, with five further scenarios bounding it. Two models from one provider. A gpt-5 arm through a different harness showed no form effect and followed embedded orders, but harness and model are confounded and we make no claim.
 
-**Baseline instability.** A byte-identical Sonnet baseline ranged 25–80% across batches; causes tested (run path, time of day) did not explain it. Every effect is an in-batch contrast.
+**Baseline instability.** A byte-identical Sonnet baseline ranged 25–90% across the study. A dedicated probe on a single day (2026-09-01), the same cell run as four n=20 batches spaced ~2.5 h apart on bland paths, gave 90%, 70%, 90%, 80% — a 20-point swing within hours, non-monotone in time, so neither run path nor time of day accounts for it; dated model ids are rejected by the CLI, so a served-snapshot change cannot be ruled out. Every effect is an in-batch contrast; baselines are reported as ranges.
 
 **Retractions on scaling.** Of five exploratory (n≤8) findings scaled to n≥20, four collapsed: a clause "tuned to 50%" (a fluke of six runs); "policy files outrank people" at *p*=2×10⁻⁶ (a content confound — reversed when text was matched); three predicted ablation ingredients (all null; the effect lived in the clause held constant); and "naming the conflict in the antecedent collapses the effect" (2/6 became 15/20). The Sonnet privacy flip survived and strengthened. We report nothing under n=20 as a result.
 

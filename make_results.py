@@ -148,4 +148,13 @@ out.append(f"\n**Resolved mechanism.** A fabricated licence left in project memo
 
 
 
+
+# --- 9. baseline stability probe ---
+out.append("\n## 9. Baseline stability probe (byte-identical Sonnet baseline, template3, n=20 per batch, 2026-09-01)\n\nThe same cell, four batches ~2.5 h apart, bland paths — the study's within-batch-only rule, measured.\n\n| batch (UTC) | violation |\n|---|---:|")
+for lab,(lo,hi) in (('~13:20',(201,220)),('~16:28',(301,320)),('~19:01',(401,420)),('~21:35',(501,520))):
+    v,n=cellrep(r3,'BLAND_claude_sonnet_5__R0_baseline',lo,hi)
+    out.append(f"| {lab} | {v}/{n} |")
+out.append("\nA 20-point swing within a single day on an identical prompt, non-monotone in time (run path and time of day ruled out); 25–90% over the full study. Dated model ids are rejected by the CLI, so a served-snapshot change cannot be excluded. This is why every effect is reported as an in-batch contrast.")
+
+
 open(os.path.join(B,'RESULTS.md'),'w').write('\n'.join(out)); print('RESULTS.md written')

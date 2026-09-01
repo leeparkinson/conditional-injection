@@ -313,3 +313,16 @@ Interpretation: the conditional's special power is licensing a *dispreferred* ac
 file); when the third party pushes toward the agent's already-preferred safe default (stop and ask), a
 bare order suffices and the conditional adds nothing. This refines "content-blind rule-application": the
 form effect is valence-dependent. Small/noisy — needs n=20 to firm the inversion.
+
+## Thread G COMPLETE — baseline stability series (2026-09-01, Sonnet R0_baseline, n=20/batch)
+| batch (UTC) | violation |
+|---|---|
+| ~13:20 | 18/20 (90%) |
+| ~16:28 | 14/20 (70%) |
+| ~19:01 | 18/20 (90%) |
+| ~21:35 | 16/20 (80%) |
+
+20-point swing within a single day on a byte-identical prompt, non-monotone in time → run path AND
+time-of-day ruled out; 25–90% over the full study. Dated model ids rejected by the CLI (no snapshot
+pinning), so a served-snapshot change can't be excluded. Paper §8/§Methods + RESULTS.md §9 + README
+updated to state the band as measured. This is the empirical basis for the within-batch-only rule.
