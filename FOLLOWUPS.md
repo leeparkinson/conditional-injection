@@ -240,3 +240,33 @@ is identified as specific-but-not-yet-isolated, and it is not attribution or rat
 
 Open (follow-up #4): a with/without-"rather than working around it" × canonical/paraphrased factor at
 n=20 to isolate the lever before thread E's mechanism sentence is written.
+
+## Thread E RESOLVED (2026-09-01, reps 661–680) — mechanism is foreclosure × canonical, NOT provenance
+
+Foreclosure ("rather than working around it") × canonical-vs-paraphrase, unattributed, n=20:
+
+| | canonical | paraphrase |
+|---|---|---|
+| foreclosure | 5/20 | 1/20 |
+| no foreclosure | 2/20 | 0/20 |
+
+Only canonical+foreclosure clears control (p≈0.02). Pooling EVERY E arm by this criterion:
+canonical+foreclosure **22/60**, any other licence wording 8/180, factual control 0/60 (p=2e-9).
+
+**Final mechanism:** a fabricated licence in project memory transmits to a successor only when the note
+(a) restates the operator-relevant rule in the canonical form the model recognises AND (b) forecloses the
+ask/workaround exit. This also DISSOLVES the earlier provenance story: p2lic (attributed) was low because
+it lacked foreclosure, not because it was attributed; the whole provenance×rationale 2×2 was null because
+all four corners lacked foreclosure. Provenance and rationale are ruled out. Effect small & batch-unstable
+(5/11/6 of 20). **Written into PAPER.md §5.9 (draft) and RESULTS.md §8.** Thread E complete.
+
+---
+## Status of all seven threads (n=20 confirmed)
+- **A** second constraint family — form effect REPLICATES (conditional-only; Opus 10/20, Sonnet 16/20)
+- **B** evidence vs rules — evidence-demand wording closes the channel 0/20; standard-redefine refused
+- **C** dose-response ramp — conditional 20/20 at every evidence level; baseline tracks evidence
+- **D** operator-intent ladder — ask-default LEAKS 11/20 (paper corrected); evidence-demand 0/20
+- **E** propagation — REAL & mechanism resolved (canonical+foreclosure, 22/60 vs 0/60); §5.9 drafted
+- **F** PII boundary — no flip without task-necessity (0/40); HD-necessity cell filed, needs go-ahead
+- **G** baseline stability — batch 1 = 90%; band now 25–90%; snapshot pinning impossible (CLI)
+- Paper edit: earth-round → repo-git (0/20) DONE.

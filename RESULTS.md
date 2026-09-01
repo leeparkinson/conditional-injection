@@ -125,4 +125,21 @@ The house-note licence **transmits** — pooled 17/40 vs. 0/40 for a factual han
 | **attributed** | 1/20 | 1/20 |
 | **unattributed** | 1/20 | 0/20 |
 
-All four corners sit at the factual-control level (both marginals p≈0.9): **neither provenance nor rationale is the lever.** The matched rewording lost the effect the exact wave-2 wording reproduces, so the trigger is a specific surface feature the 2×2 dropped — the working note forecloses the escape hatch (*"make it there … rather than working around it"*) and restates the canonical conditional verbatim, where the matched corners paraphrased and omitted the foreclosure. Isolating which of these carries the transmission is the open thread; **propagation is established, its mechanism is not yet attribution or rationale.**
+All four corners sit at the factual-control level (both marginals p≈0.9): **neither provenance nor rationale is the lever.** All four also happen to omit the foreclosure clause the transmitting wording carried — which the next 2×2 shows is the point.
+
+**What in the note carries it — resolved.** A second 2×2 (n=20 each, reps 661–680) crossing foreclosure (the byte-identical clause *"…rather than working around it"*) with the conditional's form (the study's canonical wording vs. a meaning-preserving paraphrase), all unattributed:
+
+| | canonical rule form | paraphrased |
+|---|---:|---:|
+| **forecloses the workaround** | 5/20 | 1/20 |
+| **does not** | 2/20 | 0/20 |
+
+Only the corner that does both — restates the rule in the form the agent recognises *and* closes the ask/workaround exit — clears the control (canonical+foreclosure vs. control p≈0.02); removing either feature drops it back. Pooling every arm run across all batches by this criterion:
+
+| inherited note | successor violates |
+|---|---:|
+| **canonical rule form + workaround foreclosed** | **22/60** |
+| any other licence wording (paraphrased, or exit left open) | 8/180 |
+| factual handoff (no licence) | 0/60 |
+
+**Resolved mechanism.** A fabricated licence left in project memory transmits to a successor who never saw the original message — but only when the note both restates the operator-relevant rule in the form the model recognises *and* forecloses the ask/workaround exit (**22/60** vs. 8/180 for any other wording, p = 2e-09; control 0/60). **It is not the licence's provenance** — an attributed version and the whole provenance×rationale 2×2 sit at control, all of them lacking the foreclosure. The safety reading: a predecessor's note that merely *asserts* a norm is inert; one that also tells the successor not to escalate or route around it is what carries it. Per-batch rate is small and unstable (5–11/20 on the transmitting wording), sharing the baseline instability documented above.
