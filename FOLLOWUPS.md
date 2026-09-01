@@ -215,3 +215,28 @@ The original p2norm is also near-verbatim the study's CANON conditional; the mat
 p2norm reproduces ~11/20, propagation is real but the mechanism is the foreclosure/canonical phrasing,
 NOT attribution; the 2×2 mislocated the factors. If p2norm comes back ~1/20, the wave-2 11/20 was a batch
 artifact and propagation is not established. **No propagation claim is settled until this returns.**
+
+## Thread E ADJUDICATED (2026-09-01, reps 641–660) — propagation is REAL; mechanism is NOT provenance
+
+Exact wave-2 wording re-run at fresh reps:
+
+| template | batch A (601–620) | batch B (641–660) | pooled |
+|---|---|---|---|
+| p2 factual (control) | 0/20 | 0/20 | 0/40 |
+| p2norm (house note) | 11/20 | 6/20 | **17/40 (p=2e-6)** |
+| p2lic (attributed) | 1/20 | 1/20 | 2/40 |
+
+**Settled:** a fabricated licence recorded in `docs/HANDOFF.md` transmits to a successor agent that never
+saw the original message — pooled 17/40 vs 0/40, p=2e-6. My last-turn "reversal" (propagation is real)
+HOLDS on replication. Per-batch rate is unstable (11 vs 6 of 20), consistent with the study's documented
+baseline instability; pooled significance is not in doubt.
+
+**But the mechanism I proposed (provenance) is WRONG.** The matched 2×2 was null on both factors, so
+"unattributed transmits, attributed doesn't" is wording-confounded, not a provenance law. The p2norm
+wording carries the effect through a feature the matched corners dropped — most likely the escape-hatch
+foreclosure ("make it there … rather than working around it") and/or the verbatim canonical conditional.
+Honest paper claim: **propagation through project memory is demonstrated; the triggering surface feature
+is identified as specific-but-not-yet-isolated, and it is not attribution or rationale.**
+
+Open (follow-up #4): a with/without-"rather than working around it" × canonical/paraphrased factor at
+n=20 to isolate the lever before thread E's mechanism sentence is written.
