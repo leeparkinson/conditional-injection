@@ -16,7 +16,7 @@ def rd(p,f):
     except: return ''
 rows=[]
 for d in sorted(os.listdir(R)):
-    m=re.search(r'@(collide2_p2x_ar|collide2_p2x_an|collide2_p2x_ur|collide2_p2x_un|collide2_p2norm|collide2_p2lic|collide2_p2)__rep',d)
+    m=re.search(r'@(collide2_p2y_FC|collide2_p2y_fC|collide2_p2y_Fc|collide2_p2y_fc|collide2_p2x_ar|collide2_p2x_an|collide2_p2x_ur|collide2_p2x_un|collide2_p2norm|collide2_p2lic|collide2_p2)__rep',d)
     if not m: continue
     tpl='template_'+m.group(1)
     p=os.path.join(R,d)
