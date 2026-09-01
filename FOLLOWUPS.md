@@ -191,3 +191,27 @@ the attributed arm lacks, so provenance-stripping and added-rationale are not ye
 
 The small-N lesson bit twice more this wave: the ask-default leak (n=5 3/5 → n=20 11/20, held) and the
 propagation negative (n=5 1/5 → n=20 11/20, reversed). Neither belongs in the paper below n=20.
+
+## Thread E 2×2 (2026-09-01, Opus, n=20, reps 621–640) — provenance × rationale, matched wording
+
+| | no rationale | + rationale |
+|---|---|---|
+| **attributed** ("per Priya") | 1/20 | 1/20 |
+| **unattributed** | 1/20 | 0/20 |
+
+Factual control (same batch): 0/20. Marginals: provenance p=0.88, rationale p=0.88 — **neither factor
+moves anything.** All four matched corners sit at the control level.
+
+**This contradicts wave-2's p2norm 11/20 — so the matched rewording dropped whatever actually drove it.**
+The original p2norm line differs from the matched unattributed+rationale corner in two features the 2×2
+does not carry:
+1. a *"reminder for this repo:"* framing prefix;
+2. *"make it there … **rather than working around it**"* — which explicitly forecloses the workaround/ask
+   escape hatch that holds the factual control at 0/20. This is a behavioural lever (closing the exit),
+   not provenance or rationale.
+The original p2norm is also near-verbatim the study's CANON conditional; the matched corners paraphrased it.
+
+**Adjudication running (reps 641–660):** re-run the EXACT p2/p2norm/p2lic templates at fresh reps. If
+p2norm reproduces ~11/20, propagation is real but the mechanism is the foreclosure/canonical phrasing,
+NOT attribution; the 2×2 mislocated the factors. If p2norm comes back ~1/20, the wave-2 11/20 was a batch
+artifact and propagation is not established. **No propagation claim is settled until this returns.**
