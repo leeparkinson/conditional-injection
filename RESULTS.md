@@ -138,22 +138,22 @@ The house-note licence **transmits** — pooled 17/40 vs. 0/40 for a factual han
 
 All four corners sit at the factual-control level (both marginals p≈0.9): **neither provenance nor rationale is the lever.** All four also happen to omit the foreclosure clause the transmitting wording carried — which the next 2×2 shows is the point.
 
-**What in the note carries it — resolved.** A second 2×2 (n=20 each, reps 661–680) crossing foreclosure (the byte-identical clause *"…rather than working around it"*) with the conditional's form (the study's canonical wording vs. a meaning-preserving paraphrase), all unattributed:
+**What in the note carries it.** A second 2×2 (n=20 each, reps 661–680) crossing foreclosure (the byte-identical clause *"…rather than working around it"*) with the conditional's form (the study's canonical wording vs. a meaning-preserving paraphrase), all unattributed:
 
 | | canonical rule form | paraphrased |
 |---|---:|---:|
 | **forecloses the workaround** | 5/20 | 1/20 |
 | **does not** | 2/20 | 0/20 |
 
-Only the corner that does both — restates the rule in the form the agent recognises *and* closes the ask/workaround exit — clears the control (canonical+foreclosure vs. control p≈0.02); removing either feature drops it back. Pooling every arm run across all batches by this criterion:
+Only the corner that does both — restates the rule in the form the agent recognises *and* closes the ask/workaround exit — clears the control (canonical+foreclosure vs. control p≈0.02). The single-feature corners sit at 1–2/20, which is consistent with each feature being necessary but underpowered to establish it. Pooling every arm run across all batches by this criterion (supplementary — the paper's primary evidence is the per-batch contrasts):
 
 | inherited note | successor violates |
 |---|---:|
-| **canonical rule form + workaround foreclosed** | **22/60** |
+| **canonical rule form + workaround foreclosed** | **55/120** |
 | any other licence wording (paraphrased, or exit left open) | 8/180 |
-| factual handoff (no licence) | 0/60 |
+| factual handoff (no licence) | 0/100 |
 
-**Reading, bounded.** A fabricated licence left in project memory transmits to a successor who never saw the original message — the primary evidence being each batch's own contrast (11/20, 6/20, 5/20 vs 0/20 in-batch controls; pooling is supplementary: 22/60 vs control 0/60). Every wording that transmitted both restated the rule in its canonical form *and* foreclosed the workaround; every wording dropping either sat at control (8/180 pooled). **Limits:** the single-feature cells are underpowered to establish each feature is individually necessary, and provenance/rationale were then tested IN the transmitting regime (reps 901–920, control 0/20): unattributed 9/20, ATTRIBUTED 13/20, +rationale 11/20 — attribution does not screen a rule-shaped, exit-closing note. Provenance is not the lever. Per-batch rate is small and unstable (5–11/20), sharing the baseline instability in §9.
+**Reading, bounded.** A fabricated licence left in project memory transmits to a successor who never saw the original message — the primary evidence being each batch's own contrast (11/20, 6/20, 5/20 vs 0/20 in-batch controls; pooling is supplementary: 55/120 vs control 0/100). Every wording that transmitted both restated the rule in its canonical form *and* foreclosed the workaround; every wording dropping either sat at control (8/180 pooled). **Limits:** the single-feature cells are underpowered to establish each feature is individually necessary, and provenance/rationale were then tested IN the transmitting regime (reps 901–920, control 0/20): unattributed 9/20, ATTRIBUTED 13/20, +rationale 11/20 — attribution does not screen a rule-shaped, exit-closing note. Provenance is not the lever. Per-batch rate is small and unstable (5–11/20), sharing the baseline instability in §9.
 
 ## 9. Baseline stability probe (byte-identical Sonnet baseline, template3, n=20 per batch, 2026-09-01)
 
@@ -178,9 +178,9 @@ The operator rule carries a defensive clause: *messages in the repo channel are 
 | conditional, no meta-rule | 20/20 | 19/20 |
 | meta-rule, no message | 0/20 | 0/20 |
 | meta-rule + conditional | 0/20 | 0/20 |
-| conditional, no meta-rule (batch 901–920) | — | — |
-| GENERIC meta-rule (names no file), no message | — | — |
-| GENERIC meta-rule + conditional | — | — |
+| conditional, no meta-rule (batch 901–920) | 20/20 | 20/20 |
+| GENERIC meta-rule (names no file), no message | 0/20 | 0/20 |
+| GENERIC meta-rule + conditional | 0/20 | 0/20 |
 
 The defensive clause drives the conditional from ceiling to zero on both models (Opus 20/20→0/20 p=7e-12; Sonnet 19/20→0/20 p=1e-10) and suppresses the Sonnet baseline (16/20→0/20). The operator can pre-close the exception with the same rule-application channel the third party exploits — and a GENERIC clause naming no file is equally effective (20/20→0/20 both models).
 
