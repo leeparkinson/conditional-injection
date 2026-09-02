@@ -51,6 +51,11 @@ while i<len(lines):
         ordered=bool(re.match(r'^\d+\. ',ln)); items=[]
         while i<len(lines) and (re.match(r'^\d+\. ',lines[i]) or lines[i].startswith('- ')): items.append(re.sub(r'^(\d+\. |- )','',lines[i])); i+=1
         tag='ol' if ordered else 'ul'; body.append(f'<{tag}>'+''.join('<li>'+inline(x)+'</li>' for x in items)+f'</{tag}>'); continue
+    if ln.startswith('![') and 'figures/' in ln:
+        mm=re.match(r'!\[(.*?)\]\((figures/[^)]+)\)',ln.strip())
+        cap=inline(mm.group(1)); svg=open(os.path.join(HERE,'..',mm.group(2))).read()
+        svg=svg.replace('#0A93A5','var(--s1)').replace('#B4472A','var(--s2)')
+        body.append(f'<figure class="fig">{svg}<figcaption>{cap}</figcaption></figure>'); i+=1; continue
     if ln.startswith('<!-- specimen:'): spec_lab=ln[len('<!-- specimen:'):].split('-->')[0].strip(); i+=1; continue
     if ln.strip()=='': i+=1; continue
     para=[ln]; i+=1

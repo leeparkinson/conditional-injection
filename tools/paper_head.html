@@ -2,10 +2,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-:root{--ground:#F6F7F5;--ink:#1C2126;--muted:#5C6670;--rule:#D6DBD4;--inset:#ECEFEA;--accent:#1F6F78;--brick:#A5452E;--mark:#DCEFEF;
+:root{--s1:#0A93A5;--s2:#B4472A;--ground:#F6F7F5;--ink:#1C2126;--muted:#5C6670;--rule:#D6DBD4;--inset:#ECEFEA;--accent:#1F6F78;--brick:#A5452E;--mark:#DCEFEF;
  --display:"Newsreader",Georgia,"Times New Roman",serif;--body:"Source Serif 4",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ground:#141A1E;--ink:#E4E8E2;--muted:#9AA5AA;--rule:#2C353B;--inset:#1C2429;--accent:#62B5BA;--brick:#DB8A70;--mark:#1F3A3D}}
-:root[data-theme="dark"]{--ground:#141A1E;--ink:#E4E8E2;--muted:#9AA5AA;--rule:#2C353B;--inset:#1C2429;--accent:#62B5BA;--brick:#DB8A70;--mark:#1F3A3D}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--s1:#22A0AA;--s2:#D57050;--ground:#141A1E;--ink:#E4E8E2;--muted:#9AA5AA;--rule:#2C353B;--inset:#1C2429;--accent:#62B5BA;--brick:#DB8A70;--mark:#1F3A3D}}
+:root[data-theme="dark"]{--s1:#22A0AA;--s2:#D57050;--ground:#141A1E;--ink:#E4E8E2;--muted:#9AA5AA;--rule:#2C353B;--inset:#1C2429;--accent:#62B5BA;--brick:#DB8A70;--mark:#1F3A3D}
 html{background:var(--ground)} body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6;margin:0;padding:0 1.25rem 6rem;-webkit-font-smoothing:antialiased}
 .page{max-width:68ch;margin:0 auto}
 .mast{padding:4rem 0 2rem;border-bottom:1px solid var(--rule);margin-bottom:2.5rem}
@@ -33,6 +33,7 @@ td code{font-size:.85em}
 .count.ok{color:var(--brick)} .count.no{color:var(--accent)}
 .lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0}
 .specimen figcaption{grid-column:1/-1;background:var(--ground);padding:.75rem 1.3rem;font-size:.9rem;color:var(--muted);border-top:1px solid var(--rule)}
+.fig{margin:1.75rem 0 1.5rem;padding:1rem 1rem .6rem;border:1px solid var(--rule);background:var(--ground)} .fig svg{display:block;width:100%;height:auto;color:var(--ink)} .fig figcaption{font-size:.9rem;color:var(--muted);margin-top:.6rem}
 @media (max-width:560px){.specimen{grid-template-columns:1fr} .stim{min-height:0}}
 @media (prefers-reduced-motion:no-preference){a{transition:color .15s}}
 </style>
