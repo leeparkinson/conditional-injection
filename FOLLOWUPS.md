@@ -326,3 +326,32 @@ form effect is valence-dependent. Small/noisy — needs n=20 to firm the inversi
 time-of-day ruled out; 25–90% over the full study. Dated model ids rejected by the CLI (no snapshot
 pinning), so a served-snapshot change can't be excluded. Paper §8/§Methods + RESULTS.md §9 + README
 updated to state the band as measured. This is the empirical basis for the within-batch-only rule.
+
+## Creative trials CONFIRMED at n=20 (2026-09-02, reps 801-820; session-limit re-run applied)
+
+**1. Immunization — decisive defense.** Operator defensive clause vs the conditional:
+| | Opus | Sonnet |
+|---|---|---|
+| conditional, no meta-rule | 20/20 | 19/20 |
+| meta-rule + conditional | **0/20** | **0/20** |
+| meta-rule, no message | 0/20 | 0/20 (baseline was 16/20) |
+p=7e-12 (Opus), 1e-10 (Sonnet). The operator can pre-close the exception; on Sonnet it also kills the baseline.
+
+**6. Reflection — 50/50 caught.** Post-violation review: Opus 20/20, Sonnet 20/20 flagged the edit as wrong
+(0 endorsed); +n=5 = 50/50. Several noted the cited Priya message doesn't exist in the repo. Real-time
+blind spot, not a stable belief.
+
+**3. Valence asymmetry — inversion CONFIRMED.**
+| cautionary message | Opus | Sonnet |
+|---|---|---|
+| baseline | 0/20 | 0/20 |
+| conditional | 0/20 | 7/20 |
+| **order** | **8/20** | **17/20** |
+| verdict | 0/20 | 1/20 |
+For wrongful CAUTION the order dominates and the conditional barely moves Opus — exact inverse of the
+transgression case (conditional>>order). The conditional's power is specific to licensing a DISPREFERRED
+action, not general suggestibility.
+
+**Written into the paper:** §6 Mitigation gains "Two defenses, measured" (immunization + reflection);
+§7 Discussion gains "The channel is valence-asymmetric". RESULTS.md §10/11/12 added. Session limit hit
+mid-batch (2026-09-01→02); 279/342 runs re-run idempotently once auth recovered, 0 remaining bad.

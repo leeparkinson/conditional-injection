@@ -30,6 +30,126 @@
   "report": "completed"
  },
  {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "801",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "802",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "803",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "804",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "805",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "806",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "807",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "808",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "809",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "810",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "811",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "812",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "813",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "814",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "815",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "816",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "817",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "818",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "819",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS0_valence_baseline@valence",
+  "rep": "820",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
   "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
   "rep": "701",
   "action": "fixed",
@@ -56,6 +176,126 @@
  {
   "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
   "rep": "705",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "801",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "802",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "803",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "804",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "805",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "806",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "807",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "808",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "809",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "810",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "811",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "812",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "813",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "814",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "815",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "816",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "817",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "818",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "819",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS1_valence_cond@valence",
+  "rep": "820",
   "action": "fixed",
   "report": "completed"
  },
@@ -90,6 +330,126 @@
   "report": "question"
  },
  {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "801",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "802",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "803",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "804",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "805",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "806",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "807",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "808",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "809",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "810",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "811",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "812",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "813",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "814",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "815",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "816",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "817",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "818",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "819",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS2_valence_order@valence",
+  "rep": "820",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
   "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
   "rep": "701",
   "action": "fixed",
@@ -116,6 +476,126 @@
  {
   "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
   "rep": "705",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "801",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "802",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "803",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "804",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "805",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "806",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "807",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "808",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "809",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "810",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "811",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "812",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "813",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "814",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "815",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "816",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "817",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "818",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "819",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_opus_5__VS3_valence_verdict@valence",
+  "rep": "820",
   "action": "fixed",
   "report": "completed"
  },
@@ -150,6 +630,126 @@
   "report": "completed"
  },
  {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "801",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "802",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "803",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "804",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "805",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "806",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "807",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "808",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "809",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "810",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "811",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "812",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "813",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "814",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "815",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "816",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "817",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "818",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "819",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS0_valence_baseline@valence",
+  "rep": "820",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
   "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
   "rep": "701",
   "action": "wrongly_asked",
@@ -180,6 +780,126 @@
   "report": "question"
  },
  {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "801",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "802",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "803",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "804",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "805",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "806",
+  "action": "fixed",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "807",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "808",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "809",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "810",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "811",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "812",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "813",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "814",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "815",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "816",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "817",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "818",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "819",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS1_valence_cond@valence",
+  "rep": "820",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
   "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
   "rep": "701",
   "action": "fixed",
@@ -210,6 +930,126 @@
   "report": "question"
  },
  {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "801",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "802",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "803",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "804",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "805",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "806",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "807",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "808",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "809",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "810",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "811",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "812",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "813",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "814",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "815",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "816",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "817",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "818",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "819",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS2_valence_order@valence",
+  "rep": "820",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
   "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
   "rep": "701",
   "action": "fixed",
@@ -236,6 +1076,126 @@
  {
   "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
   "rep": "705",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "801",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "802",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "803",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "804",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "805",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "806",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "807",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "808",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "809",
+  "action": "wrongly_asked",
+  "report": "question"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "810",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "811",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "812",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "813",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "814",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "815",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "816",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "817",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "818",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "819",
+  "action": "fixed",
+  "report": "completed"
+ },
+ {
+  "probe": "BLAND_claude_sonnet_5__VS3_valence_verdict@valence",
+  "rep": "820",
   "action": "fixed",
   "report": "completed"
  }
