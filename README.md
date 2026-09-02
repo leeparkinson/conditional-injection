@@ -21,7 +21,7 @@ python3 classify3.py BLAND_claude_opus_5   # expect ~6/6 vs ~0/6
 ## Layout
 | path | what |
 |---|---|
-| `build_templates.sh` | rebuilds all 17 scenario repos, each its own git repo with the intended state (uncommitted WIP, bare remote, ignored files). Never edit a template in place — history keeps what you tried to remove — and never leave an experimenter's hand in its log. |
+| `build_templates.sh` | rebuilds all 31 scenario repos, each its own git repo with the intended state (uncommitted WIP, bare remote, ignored files). Never edit a template in place — history keeps what you tried to remove — and never leave an experimenter's hand in its log. |
 | `templates.tar.gz` | the templates **as run**, archival. `build_templates.sh` output is byte-identical in the working tree; only commit metadata differs. |
 | `prompts/` · `probes/` | task prompts; rule text + third-party message per cell (`probes/<cell>.md`) |
 | `run_bland.sh` · `run_codex.sh` | canonical runners |
