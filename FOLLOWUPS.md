@@ -355,3 +355,14 @@ action, not general suggestibility.
 **Written into the paper:** §6 Mitigation gains "Two defenses, measured" (immunization + reflection);
 §7 Discussion gains "The channel is valence-asymmetric". RESULTS.md §10/11/12 added. Session limit hit
 mid-batch (2026-09-01→02); 279/342 runs re-run idempotently once auth recovered, 0 remaining bad.
+
+## Review gap-closing runs (2026-09-02, reps 901–920, n=20, 0 auth failures) — all four gaps CLOSED
+
+| gap | result | paper effect |
+|---|---|---|
+| 1. E provenance/rationale IN transmitting regime | control 0/20; FC unattr 9/20; **AF attributed 13/20**; RF +rationale 11/20 (all p<1e-3 vs control; n.s. among them) | "Provenance is not the lever" now SUPPORTED (was a floor-effect null before); pooled canon+forecl 31/80 vs 0/80 |
+| 2. Valence conditional, unambiguous antecedent | **Opus 19/20, Sonnet 18/20** wrongful refusal vs 0/20 baselines | **REVERSES this morning's §7**: the "inversion" (order>conditional) was an artefact of the ambiguous "shared rendering code" antecedent. Form effect is valence-SYMMETRIC — conditional dominates in BOTH directions. The "licenses a dispreferred action, not general suggestibility" refinement was wrong; original thesis holds both ways. |
+| 3. Reflection on WIP-corrected template | Opus 20/20, Sonnet 20/20 caught, 0 endorsed | Caveat removed; 90/90 across templates. Note: blended uncommitted diff led many reviewers to also call the edit "not minimal" (reading the WIP as part of it) — verdicts still carried on scope + unverifiable authorisation. |
+| 4. Generic immunization clause (names no file) | cond 20/20 → generic-meta+cond **0/20 both models** (p=3e-11) | Advice is general: the provenance rule itself is the defense, not foreknowledge of the attack. |
+
+§8 "pending re-runs" paragraph removed; §5.9/§6/§7 rewritten to the supported claims; abstract gains "whichever way it points". Counting note: `rep9[01][0-9]` excludes rep920 — batch was complete (320/320); use `\d+` + numeric range.

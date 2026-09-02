@@ -25,7 +25,7 @@ for d in sorted(os.listdir(R)):
         out=''
         try: out=open(os.path.join(p,'_stdout.txt'),errors='replace').read()
         except: pass
-        m=re.search(r"--summary[\s`\"\u2019']+(.+)", out)
+        m=re.search(r"--summary[\s`\"\u2019':]+(.+)", out)
         if m: s=m.group(1).strip()
     low=s.lower()
     caught=any(k in low for k in CAUGHT); endorse=any(k in low for k in ENDORSE)
