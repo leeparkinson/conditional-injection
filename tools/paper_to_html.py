@@ -13,7 +13,7 @@ def inline(t):
     e=re.sub(r'\*\*(.+?)\*\*',r'<strong>\1</strong>',e)
     e=re.sub(r'(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])',r'<em>\1</em>',e)
     e=smart(e); return re.sub(r'\x00(\d+)\x00',lambda m:codes[int(m.group(1))],e)
-lines=md.split('\n'); i=0; body=[]; title=sub=None; ab=False
+lines=md.split('\n'); i=0; body=[]; title=sub=None; ab=False; spec_lab=None
 def close():
     global ab
     if ab: body.append('</div>'); ab=False
@@ -30,12 +30,19 @@ while i<len(lines):
         rows=[]
         while i<len(lines) and lines[i].startswith('|'): rows.append([c.strip() for c in lines[i].strip().strip('|').split('|')]); i+=1
         hdr,align,data=rows[0],rows[1],rows[2:]; num=[a.endswith(':') for a in align]
-        if hdr[0]=='message' and any('if it is' in r[0] for r in data):
+        if spec_lab is not None:
+            lab=spec_lab; spec_lab=None
+            cap=''
+            if i<len(lines) and lines[i].strip()=='' : pass
+            j=i
+            while j<len(lines) and lines[j].strip()=='': j+=1
+            if j<len(lines) and lines[j].startswith('*(') and lines[j].rstrip().endswith(')*'):
+                cap=inline(lines[j].strip()[2:-2]); i=j+1
             def cell(r):
-                s=re.sub(r'\*\*(.+?)\*\*',r'<mark>\1</mark>',r[0].strip('"')); s=re.sub(r'`([^`]*)`',r'<code>\1</code>',s).replace("'","&rsquo;")
-                n=r[1].replace('*',''); cls='no' if n.startswith('0/') else 'ok'; a,b=n.split('/')
-                return f'<div class="spec"><p class="stim">{s}</p><p class="count {cls}">{a}<span>/{b}</span></p><p class="lab">edits the forbidden file</p></div>'
-            body.append('<figure class="specimen" aria-label="The two-word contrast">'+''.join(cell(r) for r in data)+'<figcaption>Same speaker, same channel, same predicate, same working tree. Opus&nbsp;5, genuine same-line conflict, <i>p</i>&nbsp;=&nbsp;3×10⁻¹⁰.</figcaption></figure>'); continue
+                st=r[0].strip('"'); st=re.sub(r'\*\*(.+?)\*\*',r'<mark>\1</mark>',st); st=re.sub(r'`([^`]*)`',r'<code>\1</code>',st).replace("'","&rsquo;")
+                n=r[1].replace('*',''); cls='no' if n.startswith('0/') or n.startswith('1/') else 'ok'; a_,b_=n.split('/')
+                return f'<div class="spec"><p class="stim">{st}</p><p class="count {cls}">{a_}<span>/{b_}</span></p><p class="lab">{lab}</p></div>'
+            body.append('<figure class="specimen" aria-label="Two-word contrast">'+''.join(cell(r) for r in data)+(f'<figcaption>{cap}</figcaption>' if cap else '')+'</figure>'); continue
         th=''.join(f'<th{" class=\"num\"" if num[k] else ""}>{inline(c)}</th>' for k,c in enumerate(hdr)); trs=''
         for r in data:
             r=(r+['']*len(hdr))[:len(hdr)]; trs+='<tr>'+''.join(f'<td{" class=\"num\"" if num[k] else ""}>{inline(c)}</td>' for k,c in enumerate(r))+'</tr>'
@@ -44,6 +51,7 @@ while i<len(lines):
         ordered=bool(re.match(r'^\d+\. ',ln)); items=[]
         while i<len(lines) and (re.match(r'^\d+\. ',lines[i]) or lines[i].startswith('- ')): items.append(re.sub(r'^(\d+\. |- )','',lines[i])); i+=1
         tag='ol' if ordered else 'ul'; body.append(f'<{tag}>'+''.join('<li>'+inline(x)+'</li>' for x in items)+f'</{tag}>'); continue
+    if ln.startswith('<!-- specimen:'): spec_lab=ln[len('<!-- specimen:'):].split('-->')[0].strip(); i+=1; continue
     if ln.strip()=='': i+=1; continue
     para=[ln]; i+=1
     while i<len(lines) and lines[i].strip() and not re.match(r'^(#|\||\d+\. |- |\*Draft)',lines[i]): para.append(lines[i]); i+=1
