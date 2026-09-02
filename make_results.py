@@ -142,7 +142,7 @@ out.append("\nOnly the corner that does both — restates the rule in the form t
 # pooled
 def poolby(has_both):
     v=n=0
-    catalog=[('collide2_p2norm',[(601,620),(641,660)],True),('collide2_p2y_FC',[(661,680),(901,920)],True),('collide2_p2z_AF',[(901,920)],True),('collide2_p2z_RF',[(901,920)],True),
+    catalog=[('collide2_p2norm',[(601,620),(641,660)],True),('collide2_p2y_FC',[(661,680),(901,920)],True),
              ('collide2_p2lic',[(601,620),(641,660)],False),('collide2_p2x_ur',[(621,640)],False),('collide2_p2x_un',[(621,640)],False),
              ('collide2_p2x_ar',[(621,640)],False),('collide2_p2x_an',[(621,640)],False),
              ('collide2_p2y_fC',[(661,680)],False),('collide2_p2y_Fc',[(661,680)],False),('collide2_p2y_fc',[(661,680)],False)]
