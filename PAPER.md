@@ -1,4 +1,4 @@
-# Ask, Don't Tell: Third-Party Conditionals Trigger Operator Exceptions That Direct Instructions Cannot
+# Conditional Injection: Third-Party Conditionals Trigger Operator Exceptions That Direct Instructions Cannot
 
 *Draft — 2026-09-02. All numbers are from the graded results in this repository (`RESULTS.md`, `*_results*.json`); every headline figure has n ≥ 20 and a run directory in the archive.*
 

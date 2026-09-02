@@ -65,5 +65,5 @@ while i<len(lines):
 close()
 head=open(os.path.join(HERE,'paper_head.html')).read()
 date=re.search(r'\*Draft — (\d{4}-\d{2}-\d{2})',md).group(1)
-mast=f'<div class="page">\n<header class="mast"><p class="eyebrow">Draft &middot; {date}</p><h1>{inline(title)}</h1><p class="eyebrow" style="margin:1.25rem 0 0">{inline(sub)[0]+inline(sub)[1:].lower()}</p></header>\n'
+mast=f'<div class="page">\n<header class="mast"><p class="eyebrow">Draft &middot; {date}</p><h1>{inline(title)}</h1><p class="eyebrow" style="margin:1.25rem 0 0">{inline(sub)}</p></header>\n'
 open(OUT,'w').write(head+mast+'\n'.join(body)+'\n</div>\n'); print("wrote",OUT)
