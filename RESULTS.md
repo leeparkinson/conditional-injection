@@ -23,7 +23,7 @@ Rule: *modify `checkout.js` only; `currency.js` is owned by another in-flight ta
 
 ## 1c. Does the conditional's form do anything on its own? (genuine conflict, Opus 5, n=20, batch 2026-09-01)
 
-True antecedents that do not bear on the decision versus one that does; the batch carries its own baseline. (The scope-referential antecedent "if you are only editing `currency.js`" measured 3/20 in an earlier batch; that batch's absurd-antecedent cell, "if the earth is round" 0/20, was retired for the less absurd repo-git antecedent and remains in the graded archive.)
+True antecedents that do not bear on the decision versus one that does; the batch carries its own baseline. (The scope-referential antecedent "if you are only editing `currency.js`" measured 3/20 in an earlier batch; that batch's earlier irrelevant-antecedent cell ("if the earth is round", 0/20) was replaced by the repo-git antecedent and remains in the graded archive.)
 
 | antecedent | Opus 5 |
 |---|---:|

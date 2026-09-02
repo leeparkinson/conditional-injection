@@ -1,0 +1,38 @@
+<title>Ask, Don&rsquo;t Tell</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{--ground:#F6F7F5;--ink:#1C2126;--muted:#5C6670;--rule:#D6DBD4;--inset:#ECEFEA;--accent:#1F6F78;--brick:#A5452E;--mark:#DCEFEF;
+ --display:"Newsreader",Georgia,"Times New Roman",serif;--body:"Source Serif 4",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ground:#141A1E;--ink:#E4E8E2;--muted:#9AA5AA;--rule:#2C353B;--inset:#1C2429;--accent:#62B5BA;--brick:#DB8A70;--mark:#1F3A3D}}
+:root[data-theme="dark"]{--ground:#141A1E;--ink:#E4E8E2;--muted:#9AA5AA;--rule:#2C353B;--inset:#1C2429;--accent:#62B5BA;--brick:#DB8A70;--mark:#1F3A3D}
+html{background:var(--ground)} body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6;margin:0;padding:0 1.25rem 6rem;-webkit-font-smoothing:antialiased}
+.page{max-width:68ch;margin:0 auto}
+.mast{padding:4rem 0 2rem;border-bottom:1px solid var(--rule);margin-bottom:2.5rem}
+.eyebrow{font-family:var(--mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 1.25rem}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(2rem,5vw,2.9rem);line-height:1.12;letter-spacing:-.01em;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:1.55rem;line-height:1.2;margin:3rem 0 .9rem;text-wrap:balance}
+h3{font-family:var(--display);font-weight:600;font-size:1.2rem;margin:2rem 0 .6rem;text-wrap:balance}
+h2+p,h3+p{margin-top:0} p{margin:0 0 1.1rem} p+p{margin-top:0}
+.note{font-size:.9rem;color:var(--muted);margin:-1.25rem 0 2rem}
+.cap{font-size:.9rem;color:var(--muted);margin-top:-.75rem}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.15em} a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+strong{font-weight:600} em{font-style:italic}
+code{font-family:var(--mono);font-size:.88em;background:var(--inset);padding:.1em .35em;border-radius:3px}
+h2:first-of-type{font-size:1.2rem;margin-top:0}
+.abstract{background:var(--inset);padding:1.25rem 1.4rem;border-left:3px solid var(--accent);font-size:.98rem;line-height:1.6;margin-bottom:1.5rem} .abstract p:last-child{margin-bottom:0}
+ol,ul{padding-left:1.4rem} li{margin:.35rem 0} li>p{margin:0}
+.tbl{overflow-x:auto;margin:1.25rem 0 1.5rem} table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{padding:.55rem .7rem;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top} th{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500;border-bottom:1px solid var(--ink)}
+td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap} td.num strong{color:var(--brick)}
+td code{font-size:.85em}
+.specimen{margin:1.75rem 0 1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.spec{background:var(--ground);padding:1.4rem 1.3rem 1.2rem;display:flex;flex-direction:column;gap:.6rem}
+.stim{font-family:var(--mono);font-size:.95rem;line-height:1.5;margin:0;min-height:5.2em} .stim mark{background:var(--mark);color:inherit;padding:.05em .25em;font-weight:500}
+.count{font-family:var(--display);font-weight:500;font-size:3.2rem;line-height:1;margin:auto 0 0;font-variant-numeric:tabular-nums} .count span{font-size:1.2rem;color:var(--muted);margin-left:.1em}
+.count.ok{color:var(--brick)} .count.no{color:var(--accent)}
+.lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0}
+.specimen figcaption{grid-column:1/-1;background:var(--ground);padding:.75rem 1.3rem;font-size:.9rem;color:var(--muted);border-top:1px solid var(--rule)}
+@media (max-width:560px){.specimen{grid-template-columns:1fr} .stim{min-height:0}}
+@media (prefers-reduced-motion:no-preference){a{transition:color .15s}}
+</style>
