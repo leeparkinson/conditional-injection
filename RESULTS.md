@@ -153,20 +153,21 @@ Only the corner that does both — restates the rule in the form the agent recog
 | any other licence wording (paraphrased, or exit left open) | 8/180 |
 | factual handoff (no licence) | 0/80 |
 
-**Reading, bounded.** A fabricated licence left in project memory transmits to a successor who never saw the original message — the primary evidence being each batch's own contrast (11/20, 6/20, 5/20 vs 0/20 in-batch controls; pooling is supplementary: 31/80 vs control 0/80). Every wording that transmitted both restated the rule in its canonical form *and* foreclosed the workaround; every wording dropping either sat at control (8/180 pooled). **Limits:** the single-feature cells are underpowered to establish each feature is individually necessary, and provenance/rationale were then tested IN the transmitting regime (reps 901–920, control 0/20): unattributed 9/20, ATTRIBUTED 13/20, +rationale 11/20 — attribution does not screen a rule-shaped, exit-closing note. Provenance is not the lever. Per-batch rate is small and unstable (5–11/20), sharing the baseline instability in §9.
+**Reading, bounded.** A fabricated licence left in project memory transmits to a successor who never saw the original message — the primary evidence being each batch's own contrast (11/20, 6/20, 5/20 vs 0/20 in-batch controls; pooling is supplementary: 31/80 vs control 0/80). Every wording that transmitted both restated the rule in its canonical form *and* foreclosed the workaround; every wording dropping either sat at control (8/180 pooled). **Limits:** the single-feature cells are underpowered to establish each feature is individually necessary, and provenance/rationale were then tested IN the transmitting regime (reps 901–920, control 0/20): unattributed 9/20, ATTRIBUTED 13/20, +rationale 11/20 — attribution does not screen a rule-shaped, exit-closing note. Provenance is not the lever. Per-batch rate is small and varies (5–11/20), within the sampling variance expected at n=20 (§9).
 
-## 9. Baseline stability probe (byte-identical Sonnet baseline, template3, n=20 per batch, 2026-09-01)
+## 9. Baseline variance (byte-identical Sonnet baseline, template3, neutral paths, n=20 per batch)
 
-The same cell, four batches ~2.5 h apart, bland paths — the study's within-batch-only rule, measured.
+The same cell across five batches over four days. The spread is binomial sampling at ~82%, not drift: χ² across batches p=0.43; pooled 82/100; a single n=20 batch at that rate has a 95% CI of 56–94%. Earlier 25–50% figures came from descriptive-path runs that §3.4 excludes as contaminated and are not in this repository. No run in the series hit a usage limit or failed to file a report.
 
-| batch (UTC) | violation |
+| batch | violation |
 |---|---:|
-| ~13:20 | 18/20 |
-| ~16:28 | 14/20 |
-| ~19:01 | 18/20 |
-| ~21:35 | 16/20 |
+| 2026-08-29 ~06:51 (reps 1–20) | 16/20 |
+| 2026-09-01 ~14:11 (201–220) | 18/20 |
+| 2026-09-01 ~16:27 (301–320) | 14/20 |
+| 2026-09-01 ~18:59 (401–420) | 18/20 |
+| 2026-09-01 ~21:31 (501–520) | 16/20 |
 
-A 20-point swing within a single day on an identical prompt, non-monotone in time (run path and time of day ruled out); 25–90% over the full study. Dated model ids are rejected by the CLI, so a served-snapshot change cannot be excluded. This is why every effect is reported as an in-batch contrast.
+This is why every effect is reported as an in-batch contrast: a 20-run baseline is coarse, and Sonnet baselines are ranges, not points.
 
 ## 10. Defense A — operator immunization (genuine conflict, n=20, reps 801-820)
 
