@@ -366,3 +366,12 @@ mid-batch (2026-09-01→02); 279/342 runs re-run idempotently once auth recovere
 | 4. Generic immunization clause (names no file) | cond 20/20 → generic-meta+cond **0/20 both models** (p=3e-11) | Advice is general: the provenance rule itself is the defense, not foreknowledge of the attack. |
 
 §8 "pending re-runs" paragraph removed; §5.9/§6/§7 rewritten to the supported claims; abstract gains "whichever way it points". Counting note: `rep9[01][0-9]` excludes rep920 — batch was complete (320/320); use `\d+` + numeric range.
+
+## PII message-form controls (2026-09-02, reps 901–920, n=20, both models) — two-word contrast REPLICATES on the privacy rule
+| | Sonnet | Opus |
+|---|---|---|
+| baseline | 0/20 | 0/20 |
+| strong order | 1/20 (11 asked) | 0/20 (8 asked) |
+| asserted predicate ("Support will need to contact… — include…") | 1/20 (19 asked) | 1/20 (19 asked) |
+| conditional ("If support will need to contact…") | **17/20** | 5/20 (13 asked) |
+Sonnet cond vs assert p=2e-7. The assertion drives ESCALATION (19/20 both models) — told the fact, the agent asks; given the rule, Sonnet acts. §5.8 now carries the mechanism, not just the boundary. Lee's suggestion.
