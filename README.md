@@ -37,7 +37,7 @@ python3 classify3.py BLAND_claude_opus_5   # expect ~6/6 vs ~0/6
 | `ARCHIVE.md` | where the run directories and full Claude Code transcripts are archived, with checksums |
 
 ## Method notes that matter
-- **Compare only within a batch.** A single n=20 baseline is coarse: the byte-identical Sonnet baseline gave 70–90% across five neutral-path batches over four days (χ² p=0.43 — one stable rate of ~82% under binomial sampling, not drift; earlier 25–50% figures came from descriptive-path runs since excluded as contaminated). Every effect here is an in-batch contrast; Sonnet baselines are ranges.
+- **Compare only within a batch.** A single n=20 baseline is coarse: the byte-identical Sonnet baseline gave 70–90% across five batches over four days (χ² p=0.43 — one stable rate of ~82% under binomial sampling, not drift). Every effect here is an in-batch contrast; Sonnet baselines are ranges.
 - **Scale before believing.** Five exploratory findings (n≤8) were scaled to n≥20; four collapsed, one strengthened. Nothing under n=20 is reported as a result.
 - **Escalation is an affordance.** Without a structured way to ask (`bin/report-turn` in the templates), agents silently built workarounds (10/10); with it, ~95% escalated. Measure it or you are measuring its absence.
 - **Agents read everything.** Directory names, git history, file headers. A validator that embedded the key in a tracked file was cited as licence; a three-commit template history was called "deliberately tightened".

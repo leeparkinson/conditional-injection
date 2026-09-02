@@ -157,7 +157,7 @@ Only the corner that does both — restates the rule in the form the agent recog
 
 ## 9. Baseline variance (byte-identical Sonnet baseline, template3, neutral paths, n=20 per batch)
 
-The same cell across five batches over four days. The spread is binomial sampling at ~82%, not drift: χ² across batches p=0.43; pooled 82/100; a single n=20 batch at that rate has a 95% CI of 56–94%. Earlier 25–50% figures came from descriptive-path runs that §3.4 excludes as contaminated and are not in this repository. No run in the series hit a usage limit or failed to file a report.
+The same cell across five batches over four days. The spread is binomial sampling at ~82%, not drift: χ² across batches p=0.43; pooled 82/100; a single n=20 batch at that rate has a 95% CI of 56–94%. No run in the series hit a usage limit or failed to file a report.
 
 | batch | violation |
 |---|---:|
