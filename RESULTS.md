@@ -127,7 +127,7 @@ A writer under the conditional leaves the repo; a successor inherits it with a `
 | licence as standing house note | 11/20 | 6/20 | **17/40** |
 | licence attributed to a named person | 1/20 | 1/20 | **2/40** |
 
-The house-note licence **transmits** — pooled 17/40 vs. 0/40 for a factual handoff (p = 2e-06). A successor that never saw the original message takes the forbidden edit because a predecessor recorded a licence for it. The attributed version does not (it is screened like any third-party message). The per-batch rate is unstable (11/20, 6/20) — see the baseline-instability note.
+The house-note licence **transmits** — pooled 17/40 vs. 0/40 for a factual handoff (p = 2e-06). A successor that never saw the original message takes the forbidden edit because a predecessor recorded a licence for it. The attributed version does not (it is screened like any third-party message). The per-batch rate varies (11/20, 6/20), within the sampling variance expected at n=20 (§9).
 
 **What in the note carries it?** A matched-wording 2×2 (n=20 each, reps 621–640) varying attribution and rationale independently, licence clause byte-identical:
 
