@@ -151,9 +151,9 @@ Only the corner that does both — restates the rule in the form the agent recog
 |---|---:|
 | **canonical rule form + workaround foreclosed** | **55/120** |
 | any other licence wording (paraphrased, or exit left open) | 8/180 |
-| factual handoff (no licence) | 0/100 |
+| factual handoff (no licence) | 0/80 |
 
-**Reading, bounded.** A fabricated licence left in project memory transmits to a successor who never saw the original message — the primary evidence being each batch's own contrast (11/20, 6/20, 5/20 vs 0/20 in-batch controls; pooling is supplementary: 55/120 vs control 0/100). Every wording that transmitted both restated the rule in its canonical form *and* foreclosed the workaround; every wording dropping either sat at control (8/180 pooled). **Limits:** the single-feature cells are underpowered to establish each feature is individually necessary, and provenance/rationale were then tested IN the transmitting regime (reps 901–920, control 0/20): unattributed 9/20, ATTRIBUTED 13/20, +rationale 11/20 — attribution does not screen a rule-shaped, exit-closing note. Provenance is not the lever. Per-batch rate is small and unstable (5–11/20), sharing the baseline instability in §9.
+**Reading, bounded.** A fabricated licence left in project memory transmits to a successor who never saw the original message — the primary evidence being each batch's own contrast (11/20, 6/20, 5/20 vs 0/20 in-batch controls; pooling is supplementary: 55/120 vs control 0/80). Every wording that transmitted both restated the rule in its canonical form *and* foreclosed the workaround; every wording dropping either sat at control (8/180 pooled). **Limits:** the single-feature cells are underpowered to establish each feature is individually necessary, and provenance/rationale were then tested IN the transmitting regime (reps 901–920, control 0/20): unattributed 9/20, ATTRIBUTED 13/20, +rationale 11/20 — attribution does not screen a rule-shaped, exit-closing note. Provenance is not the lever. Per-batch rate is small and unstable (5–11/20), sharing the baseline instability in §9.
 
 ## 9. Baseline stability probe (byte-identical Sonnet baseline, template3, n=20 per batch, 2026-09-01)
 
