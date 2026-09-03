@@ -7,7 +7,7 @@ authors:
 date-released: 2026-09-03
 version: "1.0"
 repository-code: "https://github.com/leeparkinson/conditional-injection"
-license: TBD
+license: "MIT AND CC-BY-4.0"
 keywords:
   - prompt injection
   - instruction hierarchy

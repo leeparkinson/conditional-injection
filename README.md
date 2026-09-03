@@ -42,3 +42,8 @@ python3 graders/classify3.py S2_claude_opus_5    # expect ~6/6 vs ~0/6
 
 ## Scope and limits
 Two Anthropic models (Sonnet 5, Opus 5) through Claude Code; gpt-5 through Codex, harness-confounded. Two codebase families and two constraint types (a file-scope rule, which carries the mechanism claim, and a public-API signature rule on which it replicates); seven further scenarios bound it. 3,320 reported runs (166 cells, n=20 per model) on 2026-09-02/03, plus the earlier and exploratory runs described in the paper's §8 and Appendix C.
+
+## Licence and citation
+Code is MIT; the paper, figures and data are CC BY 4.0 (`LICENSE`, `LICENSE-CC-BY-4.0`). Cite as in `CITATION.cff`:
+
+> Parkinson, L. (2026). *Conditional Injection: Third-Party Conditionals Trigger Operator Exceptions That Direct Instructions Cannot.* https://github.com/leeparkinson/conditional-injection
