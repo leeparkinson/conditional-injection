@@ -1,6 +1,6 @@
 # Archive
 
-Run directories and full Claude Code transcripts (tool calls, edits, reasoning) for every run behind the paper. Not in git. Stored at `~/archive/conditional-constraint-study/` on the study machine — copy off-machine.
+Run directories and full Claude Code transcripts (tool calls, edits, reasoning) for every run behind the paper. Not in git: all six files below are attached to the GitHub release **[v1.0-data](https://github.com/leeparkinson/conditional-injection/releases/tag/v1.0-data)** (a Zenodo deposit with a DOI is planned for publication); the originals are also at `~/archive/conditional-constraint-study/` on the study machine.
 
 **Reported runs (the paper's numbers; 2026-09-02/03, pinned CLI 2.1.258, isolated neutrally named config, auto-memory off):**
 
@@ -18,5 +18,5 @@ Run directories and full Claude Code transcripts (tool calls, edits, reasoning) 
 
 Checksums are also in `SHA256SUMS-2026-09-03` and `SHA256SUMS-2026-09-02` beside the archives. The 2026-08-30 archives are superseded by the 2026-09-02 ones, which contain them.
 
-`probe_runs-*.tar.gz` — one directory per run: the agent's final repo state, `_stdout.txt`, `_status.txt`, `_diff.txt`, `.report.json`. (In a handful of runs the agent tidied the untracked `_stdout.txt` away; the transcript still holds the full session and the graders score repository state.)
+`probe_runs-*.tar.gz` — one directory per run: the agent's final repo state, `_stdout.txt`, `_status.txt`, `_diff.txt`, `.report.json`. (In a handful of runs the agent tidied the untracked `_stdout.txt` away; the transcript still holds the full session and the graders score repository state.) Where an agent committed inside a run, the commit and the transcript carry the study machine's git identity (the author's name and email) and home paths; the archives contain no credentials.
 Graded results for every run are the `results/*_results.json` files in this repository; `make_results.py` regenerates `RESULTS.md` from them and `tools/compare_studies.py` produces the cell-by-cell comparison with the earlier run (`batches/study2_compare.md`).
