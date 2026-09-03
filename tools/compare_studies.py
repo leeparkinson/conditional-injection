@@ -9,7 +9,7 @@ J={f:json.load(open(os.path.join(B,f))) for f in ('probe_results3.json','harm_re
 def fisher(a,n1,b,n2):
     M=n1+n2;K=a+b
     pmf=lambda x: comb(n1,x)*comb(n2,K-x)/comb(M,K) if 0<=x<=n1 and 0<=K-x<=n2 else 0
-    return sum(pmf(x) for x in range(min(a,b),max(a,b)+1)) if a!=b else 1.0
+    pa=pmf(a); return min(1.0,sum(pmf(x) for x in range(0,n1+1) if pmf(x)<=pa*(1+1e-9)))  # two-sided Fisher
 # which graded file + which action counts as the cell's outcome
 def source(probe,tpl):
     if probe.startswith(('HA','HB','HC','HD','HE')): return 'harm_results.json',('VIOLATE',)
