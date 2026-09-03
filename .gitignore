@@ -1,11 +1,13 @@
-probe_runs/
-runs/
+batches/grader_*.err
 cfg/*
 !cfg/settings.json
 codex_home/
-node_modules/
 *.log
+node_modules/
 package-lock.json
+probe_runs/
+__pycache__/
+_rebuild/
+runs/
 template*/
 tpl_*/
-_rebuild/

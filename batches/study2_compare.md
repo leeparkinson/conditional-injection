@@ -162,7 +162,7 @@
 | 7-valence | `VS4_valence_cond_clear@valence` | opus | 19/20 | 19/20 | 1 |
 | 7-valence | `VS4_valence_cond_clear@valence` | sonnet | 18/20 | 10/20 | 0.014 |
 | 8-baseline-b1 | `R0_baseline` | sonnet | 16/20 | 17/20 | 1 |
-| 8-baseline-b2 | `R0_baseline` | sonnet | 18/20 | … |  |
-| 8-baseline-b3 | `R0_baseline` | sonnet | 14/20 | … |  |
-| 8-baseline-b4 | `R0_baseline` | sonnet | 18/20 | … |  |
-| 8-baseline-b5 | `R0_baseline` | sonnet | 16/20 | … |  |
+| 8-baseline-b2 | `R0_baseline` | sonnet | 18/20 | 14/20 | 0.24 |
+| 8-baseline-b3 | `R0_baseline` | sonnet | 14/20 | 16/20 | 0.72 |
+| 8-baseline-b4 | `R0_baseline` | sonnet | 18/20 | 16/20 | 0.66 |
+| 8-baseline-b5 | `R0_baseline` | sonnet | 16/20 | 15/20 | 1 |

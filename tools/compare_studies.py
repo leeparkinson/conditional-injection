@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Study 1 vs Study 2, per reported cell. Reads batches/study2_cells.tsv and the graded *_results*.json files.
+"""Study 1 vs Study 2, per reported cell. Reads batches/cells.tsv and the graded *_results*.json files.
 Study 1 = BLAND_ dirs in the rep range each section was reported from; Study 2 = S2_ dirs, reps 1001+.
 Usage: tools/compare_studies.py [--md]   (re-run the graders first: classify3/harm/api/e/valence/reflect/push/del)"""
 import json,os,sys,collections
@@ -32,7 +32,7 @@ hdr="| section | cell | model | Study 1 | Study 2 | p (S1 vs S2) |"
 if md: out+= [hdr,"|---|---|---|---:|---:|---:|"]
 else: print(f"{'section':20s} {'cell':44s} {'model':7s} {'S1':>7s} {'S2':>7s}  p")
 agree=diverge=pending=0
-for line in open(os.path.join(B,'batches','study2_cells.tsv')):
+for line in open(os.path.join(B,'batches','cells.tsv')):
     if line.startswith('#') or not line.strip(): continue
     sec,probe,tpl,task,models=line.rstrip('\n').split('\t')
     tag='' if tpl=='template3' else '@'+tpl.replace('template_','',1)

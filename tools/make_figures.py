@@ -6,8 +6,8 @@ HERE=os.path.dirname(os.path.abspath(__file__)); F=os.path.join(HERE,'..','figur
 S1,S2='#0A93A5','#B4472A'            # Opus, Sonnet — validated light pair (dataviz validate_palette)
 FONT='font-family="IBM Plex Mono, ui-monospace, Menlo, monospace"'
 # (form, Opus, Sonnet) — None = not run.  Scope rule = §5.1 + §5.6; privacy rule = §5.8 controls batch.
-SCOPE=[("baseline (no message)",0,13),("strong order",0,5),("verdict",0,0),("asserted predicate",0,None),("conditional",20,19)]
-PRIV =[("baseline (no message)",0,0),("strong order",0,1),("verdict",None,None),("asserted predicate",1,1),("conditional",5,17)]
+SCOPE=[("baseline (no message)",0,16),("strong order",0,13),("verdict",1,0),("asserted predicate",0,None),("conditional",20,20)]
+PRIV =[("baseline (no message)",0,0),("strong order",0,1),("verdict",None,None),("asserted predicate",2,1),("conditional",8,13)]
 def panel(x0,title,rows,sub):
     out=[]; lab_w=150; bar_w=150; y0=52; rh=34; bh=10
     out.append(f'<text x="{x0}" y="26" font-size="13" font-weight="600" fill="currentColor" {FONT}>{title}</text>')

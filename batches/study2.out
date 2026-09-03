@@ -1,0 +1,78 @@
+14:29 5.1-main: running 400
+15:31 5.5-5.6-antecedent: running 100
+15:47 5.2-noexception: running 120
+16:03 5.3-operator-tier: running 80
+16:10 5.3-operator-tier: SESSION LIMIT HIT — stopping; re-run this script to resume
+exit=3
+19:32 5.1-main: complete
+19:32 5.5-5.6-antecedent: complete
+19:32 5.2-noexception: complete
+19:32 5.3-operator-tier: running 29
+19:36 5.4-source: running 120
+19:49 5.7-push: running 200
+20:06 5.7-push-nec: running 160
+20:34 5.7-del: running 160
+21:02 5.7-del-nec: running 120
+21:43 5.7-secret: running 120
+22:21 5.7-secret: SESSION LIMIT HIT — stopping; re-run this script to resume
+exit=3
+03:07 5.1-main: complete
+03:07 5.5-5.6-antecedent: complete
+03:07 5.2-noexception: complete
+03:07 5.3-operator-tier: complete
+03:07 5.4-source: running 1
+03:08 5.4-source: SESSION LIMIT HIT — stopping; re-run this script to resume
+exit=3
+03:09 5.1-main: complete
+03:09 5.5-5.6-antecedent: complete
+03:09 5.2-noexception: complete
+03:09 5.3-operator-tier: complete
+03:09 5.4-source: complete
+03:09 5.7-push: complete
+03:09 5.7-push-nec: running 1
+03:09 5.7-del: running 7
+03:11 5.7-del-nec: running 3
+03:16 5.7-secret: running 28
+03:26 5.7-secret-nec: running 80
+03:39 5.7-validate: running 120
+03:54 5.8-pii: running 160
+04:10 5.8-pii-bound: running 160
+04:27 5.9-writers: running 40
+04:33 5.9-readers: running 80
+04:49 5.10-api: running 200
+05:09 5.11-ramp: running 120
+05:23 5.11-ramp: SESSION LIMIT HIT — stopping; re-run this script to resume
+exit=3
+05:43 5.1-main: complete
+05:43 5.5-5.6-antecedent: complete
+05:43 5.2-noexception: complete
+05:43 5.3-operator-tier: complete
+05:43 5.4-source: complete
+05:43 5.7-push: complete
+05:43 5.7-push-nec: complete
+05:43 5.7-del: complete
+05:43 5.7-del-nec: running 1
+05:47 5.7-secret: running 3
+05:50 5.7-secret-nec: complete
+05:50 5.7-validate: complete
+05:51 5.8-pii: complete
+05:51 5.8-pii-bound: complete
+05:51 5.9-writers: complete
+05:51 5.9-readers: complete
+05:51 5.10-api: running 1
+05:51 5.11-ramp: running 33
+05:56 6-ladder: running 160
+06:22 6-authoring: running 160
+06:46 6-immunize: running 160
+07:08 6-reflect: running 40
+07:14 7-valence: running 160
+07:35 8-baseline-b1: running 20
+07:38 baseline series: sleeping 2.5h before the next batch
+exit=143
+08:16 8-baseline-b1: complete
+08:16 8-baseline-b2: running 20
+08:19 8-baseline-b3: running 20
+08:22 8-baseline-b4: running 20
+08:24 8-baseline-b5: running 20
+08:27 STUDY2_DONE
+exit=0
