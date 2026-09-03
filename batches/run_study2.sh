@@ -11,7 +11,9 @@ ONLY=${1:-}; LOG="$STUDY/batches/study2.log"
 cp ~/.claude/.credentials.json "$ISO/.credentials.json"
 tag(){ echo "$1" | tr -c 'a-z0-9\n' '_'; }
 bad(){ d=$1; [ ! -s "$d/_stdout.txt" ] || grep -qE "Failed to authenticate|session limit|usage limit|OAuth session expired|API Error|Credit balance|Reconnecting\.\.\. 5/5" "$d/_stdout.txt" 2>/dev/null; }
-limit_hit(){ grep -lE "session limit|usage limit|Credit balance" "$STUDY"/probe_runs/S2_*/_stdout.txt 2>/dev/null | head -1; }
+limit_hit(){ # only the runs of the batch just executed (stale limited runs from LATER sections must not trip this)
+  echo "$jobs" | while read -r probe r m tpl task; do [ -z "$probe" ] && continue; t=""; [ "$tpl" != template3 ] && t="@${tpl#template_}"
+    f="$STUDY/probe_runs/S2_$(tag $m)__${probe}${t}__rep$r/_stdout.txt"; grep -lE "session limit|usage limit|Credit balance" "$f" 2>/dev/null; done | head -1; }
 sections=$(grep -v '^#' "$STUDY/batches/study2_cells.tsv" | cut -f1 | awk '!s[$0]++')
 for sec in $sections; do
   [ -n "$ONLY" ] && [[ "$sec" != "$ONLY"* ]] && continue
