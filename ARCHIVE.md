@@ -6,7 +6,7 @@ Run directories and full Claude Code transcripts (tool calls, edits, reasoning) 
 
 | file | contents | sha256 |
 |---|---|---|
-| `probe_runs-clean-2026-09-03.tar.gz` (63 MB) | 3,320 run directories (`S2_<model>__<probe>[@<template>]__rep<N>`, reps 1001–1020; baseline series 1001/1101/1201/1301/1401) | `5709e67b0ac885a8cca613db8bdbf95b5de6b47c0c72749181030223fb37ac57` |
+| `probe_runs-clean-2026-09-03.tar.gz` (63 MB) | 3,320 run directories (`S2_<model>__<probe>[@<template>]__rep<N>`, reps 1001–1020; baseline series 1001/1101/1201/1301/1401) | `c2813086722dd49bfb4e9a4d8478981459a20cab935045462f75097e6915509a` |
 | `claude-code-transcripts-clean-2026-09-03.tar.gz` (57 MB) | 3,430 JSONL transcripts written under the isolated config (`~/work/.iso/projects/`), keyed by run path | `fa5b57fc469864cc35ee645753dced8f3c5056d865510105af40a5698da4b4b8` |
 
 **Earlier run (Appendix C; exploratory batches, Appendix A, and the first full pass over the same cells, 2026-08-28 to 2026-09-02):**
