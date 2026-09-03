@@ -29,6 +29,6 @@ for sec in $sections; do
   cp ~/.claude/.credentials.json "$ISO/.credentials.json"
   echo "$jobs" | xargs -P "$P" -n 5 "$STUDY/run_study2.sh"
   if [ -n "$(limit_hit)" ]; then echo "$(date -u +%H:%M) $sec: SESSION LIMIT HIT — stopping; re-run this script to resume" | tee -a "$LOG"; exit 3; fi
-  case "$sec" in 8-baseline-b[1-4]) echo "$(date -u +%H:%M) baseline series: sleeping 2.5h before the next batch" | tee -a "$LOG"; sleep 9000;; esac
+  # Baseline series: five separate 20-run batches, run back to back (Lee, 2026-09-03: timed spacing is not part of the design).
 done
 echo "$(date -u +%H:%M) STUDY2_DONE" | tee -a "$LOG"
