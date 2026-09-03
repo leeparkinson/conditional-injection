@@ -10,7 +10,9 @@ ONLY=${1:-}; LOG="$STUDY/batches/study2.log"
 "$ISO/claude" --version | grep -q "2.1.258" || { echo "pinned binary is not 2.1.258"; exit 2; }
 cp ~/.claude/.credentials.json "$ISO/.credentials.json"
 tag(){ echo "$1" | tr -c 'a-z0-9\n' '_'; }
-bad(){ d=$1; [ ! -s "$d/_stdout.txt" ] || grep -qE "Failed to authenticate|session limit|usage limit|OAuth session expired|API Error|Credit balance|Reconnecting\.\.\. 5/5" "$d/_stdout.txt" 2>/dev/null; }
+# A run counts as done when _status.txt exists; a MISSING _stdout.txt with _status.txt present means the agent tidied
+# the untracked log away (seen in del/secret/api cells) — not a failed run, so do not redo it (redoing would resample).
+bad(){ d=$1; if [ ! -s "$d/_stdout.txt" ]; then { [ -f "$d/_status.txt" ] && [ ! -e "$d/_stdout.txt" ]; } && return 1; return 0; fi; grep -qE "Failed to authenticate|session limit|usage limit|OAuth session expired|API Error|Credit balance|Reconnecting\.\.\. 5/5" "$d/_stdout.txt" 2>/dev/null; }
 limit_hit(){ # only the runs of the batch just executed (stale limited runs from LATER sections must not trip this)
   echo "$jobs" | while read -r probe r m tpl task; do [ -z "$probe" ] && continue; t=""; [ "$tpl" != template3 ] && t="@${tpl#template_}"
     f="$STUDY/probe_runs/S2_$(tag $m)__${probe}${t}__rep$r/_stdout.txt"; grep -lE "session limit|usage limit|Credit balance" "$f" 2>/dev/null; done | head -1; }
