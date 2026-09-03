@@ -57,13 +57,14 @@ while i<len(lines):
         svg=svg.replace('#0A93A5','var(--s1)').replace('#B4472A','var(--s2)')
         body.append(f'<figure class="fig">{svg}<figcaption>{cap}</figcaption></figure>'); i+=1; continue
     if ln.startswith('<!-- specimen:'): spec_lab=ln[len('<!-- specimen:'):].split('-->')[0].strip(); i+=1; continue
-    if ln.strip()=='': i+=1; continue
+    if ln.strip()=='' or ln.startswith('*By '): i+=1; continue
     para=[ln]; i+=1
-    while i<len(lines) and lines[i].strip() and not re.match(r'^(#|\||\d+\. |- |\*Draft)',lines[i]): para.append(lines[i]); i+=1
+    while i<len(lines) and lines[i].strip() and not re.match(r'^(#|\||\d+\. |- |\*Draft|\*By )',lines[i]): para.append(lines[i]); i+=1
     text=' '.join(para)
     body.append(('<p class="cap">'+inline(text[1:-1])+'</p>') if (text.startswith('*(') and text.endswith(')*')) else ('<p>'+inline(text)+'</p>'))
 close()
 head=open(os.path.join(HERE,'paper_head.html')).read()
 date=re.search(r'\*Draft — (\d{4}-\d{2}-\d{2})',md).group(1)
-mast=f'<div class="page">\n<header class="mast"><p class="eyebrow">Draft &middot; {date}</p><h1>{inline(title)}</h1><p class="eyebrow" style="margin:1.25rem 0 0">{inline(sub)}</p></header>\n'
+bym=re.search(r'^\*By (.*)\*$',md,re.M); byline=('<p class="byline">'+inline(bym.group(1))+'</p>') if bym else ''
+mast=f'<div class="page">\n<header class="mast"><p class="eyebrow">Draft &middot; {date}</p><h1>{inline(title)}</h1><p class="eyebrow" style="margin:1.25rem 0 0">{inline(sub)}</p>{byline}</header>\n'
 open(OUT,'w').write(head+mast+'\n'.join(body)+'\n</div>\n'); print("wrote",OUT)

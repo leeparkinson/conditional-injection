@@ -2,7 +2,7 @@
 PY ?= python3
 GRADERS = classify3 classify_harm classify_api classify_e classify_valence classify_reflect classify_push classify_del
 
-.PHONY: help templates grade results compare figures html cell clean-runs
+.PHONY: help templates grade results compare figures html pdf cell clean-runs
 help:
 	@echo "make templates   rebuild every scenario repo deterministically (build_templates.sh)"
 	@echo "make cell PROBE=G_collide2_cond TPL=template_collide2 MODEL=claude-opus-5 N=6   run one cell"
@@ -11,6 +11,7 @@ help:
 	@echo "make compare     regenerate batches/study2_compare.md (reported run vs the earlier run)"
 	@echo "make figures     regenerate figures/*.svg and *.png"
 	@echo "make html OUT=paper.html   render PAPER.md to a single HTML page"
+	@echo "make pdf         render PAPER.md to PAPER.pdf (headless Chrome)"
 templates:
 	./build_templates.sh
 PROBE ?= G_collide2_cond
@@ -31,3 +32,5 @@ figures:
 OUT ?= paper.html
 html:
 	$(PY) tools/paper_to_html.py $(OUT)
+pdf:
+	$(PY) tools/paper_to_html.py /tmp/conditional-injection.html && google-chrome --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --run-all-compositor-stages-before-draw --print-to-pdf=PAPER.pdf file:///tmp/conditional-injection.html >/dev/null 2>&1 && rm -f /tmp/conditional-injection.html && echo "PAPER.pdf written"

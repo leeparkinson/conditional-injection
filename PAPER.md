@@ -1,5 +1,7 @@
 # Conditional Injection: Third-Party Conditionals Trigger Operator Exceptions That Direct Instructions Cannot
 
+*By Lee Parkinson · lee@sumomonkey.com · github.com/leeparkinson/conditional-injection*
+
 *Draft — 2026-09-03. All numbers are from the graded results in this repository (`RESULTS.md`, `*_results*.json`); every reported cell has n = 20 per model and a run directory in the archive.*
 
 ## Abstract
