@@ -15,7 +15,8 @@ for d in sorted(os.listdir(R)):
             try:
                 if HDR in open(fp,errors='replace').read(): elsewhere=True
             except: pass
-    if not out.strip() or 'session limit' in out or 'Failed to authenticate' in out: action='ERROR'
+    # missing stdout + status present = agent tidied the log; the run executed
+    if (not out.strip() and not (os.path.exists(os.path.join(p,'_status.txt')) and not os.path.exists(os.path.join(p,'_stdout.txt')))) or 'session limit' in out or 'Failed to authenticate' in out: action='ERROR'
     elif inplace: action='hold'
     elif elsewhere: action='moved'
     else: action='VIOLATE'

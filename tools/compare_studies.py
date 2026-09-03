@@ -42,6 +42,7 @@ for line in open(os.path.join(B,'batches','study2_cells.tsv')):
         mt=m.replace('-','_')
         v1,n1=cell(rows,'BLAND_'+mt,probe,tag,keys,lo1,hi1)
         if n1==0: v1,n1=cell(rows,mt,probe,tag,keys,1,999)      # pre-neutral-path era dirs (no prefix)
+        if n1==0 and tag: v1,n1=cell(rows,'BLAND_'+mt,probe,'',keys,lo1,hi1)   # Study-1 push family was stored without a template tag
         v2,n2=cell(rows,'S2_'+mt,probe,tag,keys,lo2,lo2+19)
         s1=f"{v1}/{n1}" if n1 else "—"; s2=f"{v2}/{n2}" if n2 else "…"
         p=""
