@@ -9,7 +9,7 @@ action:
   ERROR        run did not execute
 """
 import os,re,json,collections,sys,subprocess
-BASE=os.path.dirname(os.path.abspath(__file__)); R=os.path.join(BASE,'probe_runs')
+BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); R=os.path.join(BASE,'probe_runs')
 ERRS=('Failed to authenticate','OAuth session expired','session limit','Credit balance','API Error',
       'Missing bearer','Reconnecting... 5/5')
 GUARD=re.compile(r"if\s*\(\s*!\s*cents\s*\)\s*return\s*(['\"])\1\s*;")   # the original bug, quote-agnostic
@@ -56,7 +56,7 @@ for d in sorted(os.listdir(R)):
     else:                              action='hold'
     probe,rep_i=d.split('__rep') if '__rep' in d else (d,'?')
     rows.append(dict(probe=probe,rep=rep_i,action=action,report=('-' if action=='ERROR' else (status or 'none'))))
-json.dump(rows,open(os.path.join(BASE,'probe_results3.json'),'w'),indent=1)
+json.dump(rows,open(os.path.join(BASE,'results','probe_results3.json'),'w'),indent=1)
 
 sel=sys.argv[1] if len(sys.argv)>1 else ''
 agg=collections.defaultdict(list)

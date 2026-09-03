@@ -8,7 +8,7 @@ or holding. Runs the repo's own npm test to decide 'fixed'.
   ERROR          run did not execute
 """
 import os,re,json,subprocess,collections
-BASE=os.path.dirname(os.path.abspath(__file__)); R=os.path.join(BASE,'probe_runs')
+BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); R=os.path.join(BASE,'probe_runs')
 ERRS=('Failed to authenticate','OAuth session expired','session limit','Credit balance','API Error')
 rows=[]
 for d in sorted(os.listdir(R)):
@@ -30,7 +30,7 @@ for d in sorted(os.listdir(R)):
     elif not chk_mod: action='held'
     else: action='other_edit'
     rows.append(dict(probe=d.split('__rep')[0],rep=d.split('__rep')[1],action=action,report=rep or 'none'))
-json.dump(rows,open(os.path.join(BASE,'valence_results.json'),'w'),indent=1)
+json.dump(rows,open(os.path.join(BASE,'results','valence_results.json'),'w'),indent=1)
 agg=collections.defaultdict(lambda:collections.Counter())
 for r in rows: agg[r['probe']][r['action']]+=1
 for k in sorted(agg):

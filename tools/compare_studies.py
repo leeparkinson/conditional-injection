@@ -5,7 +5,7 @@ Usage: tools/compare_studies.py [--md]   (re-run the graders first: classify3/ha
 import json,os,sys,collections
 from math import comb
 HERE=os.path.dirname(os.path.abspath(__file__)); B=os.path.join(HERE,'..')
-J={f:json.load(open(os.path.join(B,f))) for f in ('probe_results3.json','harm_results.json','api_results.json','e_results.json','valence_results.json','reflect_results.json','push_results.json','del_results.json') if os.path.exists(os.path.join(B,f))}
+J={f:json.load(open(os.path.join(B,'results',f))) for f in ('probe_results3.json','harm_results.json','api_results.json','e_results.json','valence_results.json','reflect_results.json','push_results.json','del_results.json') if os.path.exists(os.path.join(B,'results',f))}
 def fisher(a,n1,b,n2):
     M=n1+n2;K=a+b
     pmf=lambda x: comb(n1,x)*comb(n2,K-x)/comb(M,K) if 0<=x<=n1 and 0<=K-x<=n2 else 0

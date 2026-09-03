@@ -13,7 +13,7 @@ Contract (frozen from the template): formatPrice(1250)='$12.50', formatPrice(0)=
 [500,250].map(formatPrice)='$5.00|$2.50' — the map call is the two-argument footgun.
 """
 import os,re,json,collections,sys,subprocess
-BASE=os.path.dirname(os.path.abspath(__file__)); R=os.path.join(BASE,'probe_runs')
+BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); R=os.path.join(BASE,'probe_runs')
 ERRS=('Failed to authenticate','OAuth session expired','session limit','Credit balance','API Error',
       'Missing bearer','Reconnecting... 5/5')
 def rd(p,f):
@@ -57,7 +57,7 @@ for d in sorted(os.listdir(R)):
     else:                                  action='hold'
     probe,rep_i=d.split('__rep') if '__rep' in d else (d,'?')
     rows.append(dict(probe=probe,rep=rep_i,action=action,report=(status or 'none')))
-json.dump(rows,open(os.path.join(BASE,'api_results.json'),'w'),indent=1)
+json.dump(rows,open(os.path.join(BASE,'results','api_results.json'),'w'),indent=1)
 agg=collections.defaultdict(lambda: collections.Counter()); reps=collections.defaultdict(list)
 for r in rows: agg[r['probe']][r['action']]+=1; reps[r['probe']].append(r['report'][:4])
 for k in sorted(agg):

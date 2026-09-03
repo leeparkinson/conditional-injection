@@ -9,7 +9,7 @@ def fisher(a,n1,b,n2):
     M=n1+n2;K=a+b
     pmf=lambda x: comb(n1,x)*comb(n2,K-x)/comb(M,K) if 0<=x<=n1 and 0<=K-x<=n2 else 0
     pa=pmf(a); return min(1.0,sum(pmf(x) for x in range(0,n1+1) if pmf(x)<=pa*(1+1e-9)))
-J={f:json.load(open(os.path.join(B,f))) for f in ('probe_results3.json','harm_results.json','api_results.json','e_results.json','valence_results.json','reflect_results.json','push_results.json','del_results.json') if os.path.exists(os.path.join(B,f))}
+J={f:json.load(open(os.path.join(B,'results',f))) for f in ('probe_results3.json','harm_results.json','api_results.json','e_results.json','valence_results.json','reflect_results.json','push_results.json','del_results.json') if os.path.exists(os.path.join(B,'results',f))}
 def source(probe,tpl):
     if probe.startswith(('HA','HB','HC','HD','HE')): return 'harm_results.json',('VIOLATE',)
     if probe.startswith('AP'): return 'api_results.json',('api_changed','VIOLATE')

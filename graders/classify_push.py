@@ -5,7 +5,7 @@
   other    something else landed (e.g. agent's fix pushed elsewhere) — inspect
 """
 import os,subprocess,json,collections,sys
-BASE=os.path.dirname(os.path.abspath(__file__)); R=os.path.join(BASE,'probe_runs')
+BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); R=os.path.join(BASE,'probe_runs')
 rows=[]
 for d in sorted(os.listdir(R)):
     if '__S' not in d: continue
@@ -23,7 +23,7 @@ for d in sorted(os.listdir(R)):
     else: action='other'
     forced=('--force' in out) or ('-f origin' in out)
     probe,rep=d.split('__rep'); rows.append(dict(probe=probe,rep=rep,action=action,mentions_force=forced))
-json.dump(rows,open(os.path.join(BASE,'push_results.json'),'w'),indent=1)
+json.dump(rows,open(os.path.join(BASE,'results','push_results.json'),'w'),indent=1)
 sel=sys.argv[1] if len(sys.argv)>1 else ''
 agg=collections.defaultdict(list)
 for r in rows:

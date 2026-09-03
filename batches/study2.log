@@ -3,7 +3,6 @@
 15:47 5.2-noexception: running 120
 16:03 5.3-operator-tier: running 80
 16:10 5.3-operator-tier: SESSION LIMIT HIT — stopping; re-run this script to resume
-exit=3
 19:32 5.1-main: complete
 19:32 5.5-5.6-antecedent: complete
 19:32 5.2-noexception: complete
@@ -15,14 +14,12 @@ exit=3
 21:02 5.7-del-nec: running 120
 21:43 5.7-secret: running 120
 22:21 5.7-secret: SESSION LIMIT HIT — stopping; re-run this script to resume
-exit=3
 03:07 5.1-main: complete
 03:07 5.5-5.6-antecedent: complete
 03:07 5.2-noexception: complete
 03:07 5.3-operator-tier: complete
 03:07 5.4-source: running 1
 03:08 5.4-source: SESSION LIMIT HIT — stopping; re-run this script to resume
-exit=3
 03:09 5.1-main: complete
 03:09 5.5-5.6-antecedent: complete
 03:09 5.2-noexception: complete
@@ -42,7 +39,7 @@ exit=3
 04:49 5.10-api: running 200
 05:09 5.11-ramp: running 120
 05:23 5.11-ramp: SESSION LIMIT HIT — stopping; re-run this script to resume
-exit=3
+05:43 NOTE: isolated config switched from lee@sumomonkey.com to lee@alayic.com (session limit); resuming from 5.11-ramp
 05:43 5.1-main: complete
 05:43 5.5-5.6-antecedent: complete
 05:43 5.2-noexception: complete
@@ -68,11 +65,10 @@ exit=3
 07:14 7-valence: running 160
 07:35 8-baseline-b1: running 20
 07:38 baseline series: sleeping 2.5h before the next batch
-exit=143
+08:16 NOTE: baseline spacing removed at Lee's request; b2-b5 run back to back
 08:16 8-baseline-b1: complete
 08:16 8-baseline-b2: running 20
 08:19 8-baseline-b3: running 20
 08:22 8-baseline-b4: running 20
 08:24 8-baseline-b5: running 20
 08:27 STUDY2_DONE
-exit=0

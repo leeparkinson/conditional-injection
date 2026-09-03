@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this harness or its results, please cite the paper."
+title: "Conditional Injection: Third-Party Conditionals Trigger Operator Exceptions That Direct Instructions Cannot"
+authors:
+  - family-names: Parkinson
+    given-names: Lee
+date-released: 2026-09-03
+version: "1.0"
+repository-code: "https://github.com/leeparkinson/conditional-injection"
+license: TBD
+keywords:
+  - prompt injection
+  - instruction hierarchy
+  - coding agents
+  - AI safety
+  - Claude Code

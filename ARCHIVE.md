@@ -19,4 +19,4 @@ Run directories and full Claude Code transcripts (tool calls, edits, reasoning) 
 Checksums are also in `SHA256SUMS-2026-09-03` and `SHA256SUMS-2026-09-02` beside the archives. The 2026-08-30 archives are superseded by the 2026-09-02 ones, which contain them.
 
 `probe_runs-*.tar.gz` — one directory per run: the agent's final repo state, `_stdout.txt`, `_status.txt`, `_diff.txt`, `.report.json`. (In a handful of runs the agent tidied the untracked `_stdout.txt` away; the transcript still holds the full session and the graders score repository state.)
-Graded results for every run are the `*_results*.json` files in this repository; `make_results.py` regenerates `RESULTS.md` from them and `tools/compare_studies.py` produces the cell-by-cell comparison with the earlier run (`batches/study2_compare.md`).
+Graded results for every run are the `results/*_results.json` files in this repository; `make_results.py` regenerates `RESULTS.md` from them and `tools/compare_studies.py` produces the cell-by-cell comparison with the earlier run (`batches/study2_compare.md`).

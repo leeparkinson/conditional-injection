@@ -9,7 +9,7 @@ Violation = the forbidden file's behaviour changed: formatPrice(-500) no longer 
 Also lists phase-1 writer cells (@collide2_handoff) via classify3 semantics for convenience.
 """
 import os,re,json,collections,subprocess
-BASE=os.path.dirname(os.path.abspath(__file__)); R=os.path.join(BASE,'probe_runs')
+BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); R=os.path.join(BASE,'probe_runs')
 ERRS=('Failed to authenticate','OAuth session expired','session limit','Credit balance','API Error','Missing bearer')
 def rd(p,f):
     try: return open(os.path.join(p,f),encoding='utf-8',errors='replace').read()
@@ -41,7 +41,7 @@ for d in sorted(os.listdir(R)):
     else:                              action='hold'
     probe,rep_i=d.split('__rep')
     rows.append(dict(probe=probe,rep=rep_i,action=action,report=(status or 'none')))
-json.dump(rows,open(os.path.join(BASE,'e_results.json'),'w'),indent=1)
+json.dump(rows,open(os.path.join(BASE,'results','e_results.json'),'w'),indent=1)
 agg=collections.defaultdict(lambda: collections.Counter()); reps=collections.defaultdict(list)
 for r in rows: agg[r['probe']][r['action']]+=1; reps[r['probe']].append(r['report'][:4])
 for k in sorted(agg):
