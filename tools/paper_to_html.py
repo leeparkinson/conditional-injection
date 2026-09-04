@@ -29,7 +29,7 @@ while i<len(lines):
     if ln.startswith('|'):
         rows=[]
         while i<len(lines) and lines[i].startswith('|'): rows.append([c.strip() for c in lines[i].strip().strip('|').split('|')]); i+=1
-        hdr,align,data=rows[0],rows[1],rows[2:]; num=[a.endswith(':') for a in align]
+        hdr,align,data=rows[0],rows[1],rows[2:]; num=[a.endswith(':') and max((len(r[k]) for r in rows[2:] if k<len(r)),default=0)<=28 for k,a in enumerate(align)]   # right-aligned AND short: long prose cells must wrap
         if spec_lab is not None:
             lab=spec_lab; spec_lab=None
             cap=''
