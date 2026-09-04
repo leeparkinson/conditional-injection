@@ -2,7 +2,7 @@
 
 *By Lee Parkinson · lee@sumomonkey.com · github.com/leeparkinson/conditional-injection*
 
-*Draft — 2026-09-03. All numbers are from the graded results in this repository (`RESULTS.md`, `*_results*.json`); every reported cell has n = 20 per model and a run directory in the archive.*
+*Draft — 2026-09-04. All numbers are from the graded results in this repository (`RESULTS.md`, `*_results*.json`); every reported cell has n = 20 per model and a run directory in the archive.*
 
 ## Abstract
 
@@ -285,6 +285,8 @@ With the live conditional present (n=20, Opus, genuine-conflict scenario, one ba
 ## 9. Reproducibility
 
 `build_templates.sh` rebuilds all scenario repositories deterministically, validated byte-identical to the as-run versions. `run_clean.sh <probe> <rep> <model> [template] [task]` executes one run under the pinned, isolated configuration of §3.4, and `batches/run_cells.sh` replays the full cell manifest (`batches/cells.tsv`) section by section, resumably; `probes/` holds every cell's rule-plus-message text; the graders and `make_results.py` regenerate every table from the graded JSON. Appendix A and Appendix C runs used the earlier `run_bland.sh`. Run directories and full transcripts are archived with SHA-256 checksums (`ARCHIVE.md`). The headline cell reproduces in about ten minutes.
+
+**Disclosure.** The findings were reported to Anthropic on 4 September 2026, one week before this paper, its harness and its run data were made public on 11 September 2026. No credentials, customer data or production systems were involved at any point: every scenario is a synthetic repository built by `build_templates.sh`, and every "harm" is a change to that repository's state.
 
 ## References
 
