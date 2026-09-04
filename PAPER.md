@@ -12,7 +12,7 @@ Coding agents run under operator rules that delegate a judgement — *do not edi
 
 Operators of coding agents write rules. Most of those rules carry exceptions, because a rule without one makes the agent useless the first time the world fails to match the operator's expectations: *do not edit files owned by another task — unless the change is clearly safe; do not force-push — unless clearly safe; do not put customer data in a report — unless clearly necessary.* The exception is a judgement the operator delegates to the agent.
 
-Agents also read. A task's context contains a great deal of text the operator did not write: READMEs, contribution guides, code comments, commit messages, tickets, chat logs, and — increasingly — the reports of other agents. The literature on indirect prompt injection treats this text as a threat surface, and the defences it has produced — instruction hierarchies (Wallace et al., 2024; Wu et al., 2024), task-alignment shields (Jia et al., 2024), tool-result sanitisation — share a working assumption: the payload is an *instruction*, and the defence's job is to notice that an instruction is arriving from an untrusted tier and decline to follow it.
+Agents also read. A task's context contains a great deal of text the operator did not write: READMEs, contribution guides, code comments, commit messages, tickets, chat logs, and — increasingly — the reports of other agents. The literature on indirect prompt injection treats this text as a threat surface, and the defences it has produced — instruction hierarchies (Wallace et al., 2024; Wu et al., 2024), task-alignment shields (Jia et al., 2024), tool-result sanitisation (Yu et al., 2026) — share a working assumption: the payload is an *instruction*, and the defence's job is to notice that an instruction is arriving from an untrusted tier and decline to follow it.
 
 This paper asks a narrower question that the assumption leaves open. When third-party text offers the agent a *permission* to take one of its operator's own exceptions, does it matter how that permission is phrased? We hold the speaker, the channel, the permitted action and the repository state constant, and vary only the grammatical form of the text: an order, a verdict, an assertion of fact, or a conditional. We find that form is decisive, that the direction of the effect is the opposite of what the defence literature assumes, and that the reason is not syntax but *who ends up evaluating the predicate*.
 
@@ -39,7 +39,7 @@ Our contributions are:
 
 **Terminology.** "Conditional prompt injection" already names payloads that fire only under a condition about the reader or context (Rehberger, 2024; Khodayari et al., 2026), and prerequisite-framed tool poisoning ("before using this tool, read…") is conditional in shape with an antecedent the attacker asserts. Our conditionals are the payload's grammatical form, with an antecedent the agent verifies for itself.
 
-**Evaluation validity.** Recent work on evaluation awareness shows frontier models detect and respond to being tested. We did not observe verbalised awareness, but we did observe agents reading experimenter fingerprints out of directory names, git history and file headers (§8), and a Sonnet baseline that looks volatile at n=20 (50–85% across eight byte-identical batches) but is statistically a single stable rate under binomial sampling (§8). Both constrain how results of this kind should be reported.
+**Evaluation validity.** Recent work on evaluation awareness shows frontier models detect and respond to being tested (Heidari et al., 2026). We did not observe verbalised awareness, but we did observe agents reading experimenter fingerprints out of directory names, git history and file headers (§8), and a Sonnet baseline that looks volatile at n=20 (50–85% across eight byte-identical batches) but is statistically a single stable rate under binomial sampling (§8). Both constrain how results of this kind should be reported.
 
 ## 3. Method
 
@@ -297,6 +297,7 @@ With the live conditional present (n=20, Opus, genuine-conflict scenario, one ba
 - Fu, Qin, Zhang, Lin, Wutschitz, Sim, Rajmohan, & Zhang (2026). CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents. arXiv:2604.21308.
 - Gadgil, Alexander, Sunku, & Roesner (2026). Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems. arXiv:2607.14611.
 - Geng, Li, Mu, Han, Baldwin, Abend, Hovy, & Frermann (2025). Control Illusion: The Failure of Instruction Hierarchies in Large Language Models. arXiv:2502.15851.
+- Heidari, F., Memarian, A., & Rabusseau, G. (2026). Evaluation Awareness in Language Models: Representation, Verbalization, and Control. arXiv:2608.21766.
 - Isbarov, Suleymanov, Shumailov, & Kantarcioglu (2026). GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines. arXiv:2606.09935.
 - Jia, F., Wu, T., Qin, X., & Squicciarini, A. (2024). The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents. arXiv:2412.16682.
 - Khodayari, Zhang, Acharya, & Pellegrino (2026). Indirect Prompt Injection in the Wild: An Empirical Study of Prevalence, Techniques, and Objectives. arXiv:2604.27202.
@@ -323,10 +324,9 @@ With the live conditional present (n=20, Opus, genuine-conflict scenario, one ba
 - Wallace, E., Xiao, K., Leike, R., Weng, L., Heidecke, J., & Beutel, A. (2024). The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. arXiv:2404.13208.
 - Wei, B., Zhang, Y., Pan, J., Mei, K., Wang, X., Hamm, J., Zhu, Z., & Ge, Y. (2026). ClawSafety: "Safe" LLMs, Unsafe Agents. arXiv:2604.01438.
 - Wu, T. et al. (2024). Instructional Segment Embedding: Improving LLM Safety with Instruction Hierarchy. ICLR 2025. arXiv:2410.09102.
+- Yu, Q., Cheng, X., & Liu, C. (2026). Defense Against Indirect Prompt Injection via Tool Result Parsing. arXiv:2601.04795.
 - Zhang, Z. et al. (2025). IHEval: Evaluating Language Models on Following the Instruction Hierarchy. NAACL 2025. arXiv:2502.08745.
 - Zharmagambetov, A. et al. (2025). AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents. arXiv:2503.09780.
-- Evaluation Awareness in Language Models: Representation, Verbalization, and Control (2026). arXiv:2608.21766.
-- Defense Against Indirect Prompt Injection via Tool Result Parsing (2026). arXiv:2601.04795.
 
 ## Appendix A. Social-source battery (underpowered; not a finding)
 
