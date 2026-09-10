@@ -20,7 +20,7 @@ def close():
 while i<len(lines):
     ln=lines[i]
     if ln.startswith('# '): sub,title=ln[2:].split(': ',1); i+=1; continue
-    if ln.startswith('*Draft'): body.append('<p class="note">'+inline(ln.strip('*'))+'</p>'); i+=1; continue
+    if ln.startswith('*Draft') or re.match(r'^\*\d{4}-',ln): body.append('<p class="note">'+inline(ln.strip('*'))+'</p>'); i+=1; continue
     if ln.startswith('## '):
         close(); h=ln[3:]; body.append('<h2>'+inline(h)+'</h2>')
         if h=='Abstract': body.append('<div class="abstract">'); ab=True
