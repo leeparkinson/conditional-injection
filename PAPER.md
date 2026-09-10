@@ -303,7 +303,7 @@ With the live conditional present (n=20, Opus, genuine-conflict scenario, one ba
 - Isbarov, Suleymanov, Shumailov, & Kantarcioglu (2026). GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines. arXiv:2606.09935.
 - Jia, F., Wu, T., Qin, X., & Squicciarini, A. (2024). The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents. arXiv:2412.16682.
 - Khodayari, Zhang, Acharya, & Pellegrino (2026). Indirect Prompt Injection in the Wild: An Empirical Study of Prevalence, Techniques, and Objectives. arXiv:2604.27202.
-- Lam, Wang, Huang, & Lyu (2025). CodeCrash: Stress Testing LLM Reasoning under Structural and Semantic Perturbations. NeurIPS 2025. arXiv:2504.14119.
+- Lam, Wang, Huang, & Lyu (2025). CodeCrash: Exposing LLM Fragility to Misleading Natural Language in Code Reasoning. NeurIPS 2025. arXiv:2504.14119.
 - Li, Fung, Weiss, Xiong, Al-Hussaeni, & Fachkha (2025). A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents (ODCV-Bench). arXiv:2512.20798.
 - Li, Ma, Wen, Huang, Zhou, Fu, & Cheng (2026). Safe Multi-Agent Behavior Must Be Maintained, Not Merely Asserted: Constraint Drift in LLM-Based Multi-Agent Systems. arXiv:2605.10481.
 - Liao, J. (2026). Auditing Provenance Sensitivity in LLM Agent Action Selection. arXiv:2607.20827.
@@ -321,7 +321,7 @@ With the live conditional present (n=20, Opus, genuine-conflict scenario, one ba
 - Santos-Grueiro (2026). Ghost in the Context: Policy-Carriage Integrity in LLM Agent Context Assembly. arXiv:2605.12535.
 - Shao, Li, Shi, Liu, & Yang (2024). PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action. NeurIPS 2024 Datasets and Benchmarks. arXiv:2409.00138.
 - Suo, Shang, Guo, & Zhang (2025). Hoist with His Own Petard: Inducing Guardrails to Facilitate Denial-of-Service Attacks on Retrieval-Augmented Generation of LLMs. arXiv:2504.21680.
-- Thornton (2026). LLM Code Reviewers Are Harder to Fool Than You Think. arXiv:2602.16741.
+- Thornton, S. (2026). Can Adversarial Code Comments Fool AI Security Reviewers — Large-Scale Empirical Study of Comment-Based Attacks and Defenses Against LLM Code Analysis. arXiv:2602.16741.
 - Tracebit Research (2026). Context bombs: stopping AI attackers in their tracks. https://agentic.tracebit.com/context-bombs/
 - Wallace, E., Xiao, K., Leike, R., Weng, L., Heidecke, J., & Beutel, A. (2024). The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. arXiv:2404.13208.
 - Wei, B., Zhang, Y., Pan, J., Mei, K., Wang, X., Hamm, J., Zhu, Z., & Ge, Y. (2026). ClawSafety: "Safe" LLMs, Unsafe Agents. arXiv:2604.01438.
