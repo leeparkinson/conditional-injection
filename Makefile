@@ -33,4 +33,4 @@ OUT ?= paper.html
 html:
 	$(PY) tools/paper_to_html.py $(OUT)
 pdf:
-	$(PY) tools/paper_to_html.py /tmp/conditional-injection.html && google-chrome --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --run-all-compositor-stages-before-draw --print-to-pdf=PAPER.pdf file:///tmp/conditional-injection.html >/dev/null 2>&1 && rm -f /tmp/conditional-injection.html && echo "PAPER.pdf written"
+	$(PY) tools/paper_to_html.py /tmp/conditional-injection.html && google-chrome --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --run-all-compositor-stages-before-draw --print-to-pdf=PAPER.pdf file:///tmp/conditional-injection.html >/dev/null 2>&1 && rm -f /tmp/conditional-injection.html && cp PAPER.pdf docs/PAPER.pdf && echo "PAPER.pdf written (and copied to docs/ for the Pages site)"
